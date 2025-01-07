@@ -1,0 +1,5 @@
+
+
+> @ts/svelte@0.0.1 lint /Users/hieudoan/git/github.com/hieudoanm/hieudoanm/languages/typescript/frontend/web/svelte
+> eslint "{src,apps,libs,test}/**/*.ts" --fix
+

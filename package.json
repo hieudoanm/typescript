@@ -1,0 +1,37 @@
+{
+  "name": "hieudoanm",
+  "version": "0.0.1",
+  "description": "hieudoanm",
+  "main": "index.js",
+  "repository": "git@github.com:hieudoanm/hieudoanm.git",
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.3",
+  "scripts": {
+    "format": "turbo run format",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "turbo": "2.3.3"
+  },
+  "resolutions": {
+    "axios": "1.7.9",
+    "body-parser": "1.20.3",
+    "cookie": "1.0.2",
+    "cross-spawn": "7.0.6",
+    "debug": "4.4.0",
+    "express": "4.21.2",
+    "nanoid": "5.0.9",
+    "postcss": "8.4.49",
+    "semver": "7.6.3",
+    "send": "1.1.0",
+    "serve-static": "1.16.2",
+    "tar": "7.4.3",
+    "webpack-dev-middleware": "7.4.2"
+  }
+}

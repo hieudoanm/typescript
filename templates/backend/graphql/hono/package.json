@@ -1,0 +1,43 @@
+{
+  "name": "@ts/graphql-hono",
+  "version": "0.0.1",
+  "description": "TypeScript - Hono - GraphQL",
+  "main": "index.js",
+  "repository": "git@github.com:hieudoanm/hieudoanm.git",
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.3",
+  "scripts": {
+    "predev": "kill-port 8787",
+    "dev": "dotenvx run -- wrangler dev api/index.ts",
+    "lint": "eslint \"api/**/*.ts\" --fix",
+    "format": "prettier --cache --write .",
+    "test": "jest || true"
+  },
+  "dependencies": {
+    "@hono/graphql-server": "0.5.1",
+    "hono": "4.6.16"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "1.32.0",
+    "@eslint/js": "9.17.0",
+    "@types/jest": "29.5.14",
+    "@types/node": "22.10.5",
+    "eslint": "9.17.0",
+    "globals": "15.14.0",
+    "graphql": "16.10.0",
+    "jest": "29.7.0",
+    "kill-port": "2.0.1",
+    "prettier": "3.4.2",
+    "ts-jest": "29.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.2",
+    "typescript-eslint": "8.19.1",
+    "wrangler": "3.99.0"
+  },
+  "keywords": [
+    "graphql",
+    "hono"
+  ]
+}
