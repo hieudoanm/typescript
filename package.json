@@ -9,6 +9,7 @@
   "private": true,
   "packageManager": "pnpm@9.15.3",
   "scripts": {
+    "init-docs": "docsify init ./docs",
     "format": "turbo run format",
     "build": "turbo run build",
     "lint": "turbo run lint",
@@ -16,6 +17,7 @@
     "dev": "turbo run dev"
   },
   "devDependencies": {
+    "docsify-cli": "4.4.4",
     "husky": "9.1.7",
     "turbo": "2.3.3"
   },
