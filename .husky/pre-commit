@@ -1,0 +1,3 @@
+pnpm run init-docs
+pnpm run format
+git add -A

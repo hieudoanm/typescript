@@ -14,7 +14,8 @@
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "dev": "turbo run dev"
+    "dev": "turbo run dev",
+    "prepare": "husky || true"
   },
   "devDependencies": {
     "docsify-cli": "4.4.4",
