@@ -1,47 +1,92 @@
 # TypeScript
 
-| No  | Supergroup       | Group     | Subgroup                    | Name                                       | Maintainer                                      |
-| --- | ---------------- | --------- | --------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| 1   | Engine           |           |                             | [V8](https://v8.dev/)                      |                                                 |
-| 2   | Engine           |           |                             | [JavaScriptCore][jsc]                      |                                                 |
-| 3   | Engine           |           |                             | [SpiderMonkey](https://spidermonkey.dev/)  |                                                 |
-| 4   | Runtime          |           |                             | [Bun](https://bun.sh/)                     |                                                 |
-| 5   | Runtime          |           |                             | [Deno](https://deno.com/)                  |                                                 |
-| 6   | Runtime          |           |                             | [Node.js](https://nodejs.org/en)           |                                                 |
-| 7   | Packages Manager |           |                             | [npm](https://www.npmjs.com/)              |                                                 |
-| 8   | Packages Manager |           |                             | [pnpm](https://pnpm.io/)                   |                                                 |
-| 9   | Packages Manager |           |                             | [yarn](https://yarnpkg.com/)               |                                                 |
-| 10  | CLI              |           |                             | [Commander][commander]                     |                                                 |
-| 11  | CLI              |           |                             | [OCLIF](https://oclif.io/)                 | [Salesforce](https://developer.salesforce.com/) |
-| 12  | CLI              |           |                             | [Yargs](https://yargs.js.org/)             |                                                 |
-| 13  | Docs             | HTML      |                             | [Docsify](https://docsify.js.org/)         |                                                 |
-| 14  | Docs             | React     |                             | [Astro](https://astro.build/)              |                                                 |
-| 15  | Docs             | React     |                             | [Docusaurus](https://docusaurus.io/)       | [Facebook](https://developers.facebook.com/)    |
-| 16  | Docs             | Vue       |                             | [VuePress](https://vuepress.vuejs.org/)    |                                                 |
-| 17  | CSS Utilities    |           |                             | [Bootstrap](https://getbootstrap.com/)     |                                                 |
-| 18  | CSS Utilities    |           |                             | [Bulma](https://bulma.io/)                 |                                                 |
-| 19  | CSS Utilities    |           |                             | [Materialize](https://materializecss.com/) |                                                 |
-| 20  | CSS Utilities    |           |                             | [TailwindCSS](https://tailwindcss.com/)    |                                                 |
-| 21  | CSS Components   |           |                             | [DaisyUI](https://daisyui.com/)            |                                                 |
-| 22  | CSS Components   |           |                             | [Flowbite](https://flowbite.com/)          |                                                 |
-| 23  | CSS Components   |           |                             | [shadcn/ui](https://ui.shadcn.com/)        |                                                 |
-| 24  | CSS Components   |           |                             | [TailwindUI](https://tailwindui.com/)      |                                                 |
-| 25  | Front-end        | Web       | [React](https://react.dev/) | [Next.js](https://nextjs.org/)             | [Vercel](https://vercel.com)                    |
-| 26  | Front-end        | Web       | [React](https://react.dev/) | [Gatsby.js](https://www.gatsbyjs.com/)     | [Netlify](https://www.netlify.com/)             |
-| 27  | Front-end        | Web       |                             | [Angular](https://angular.dev/)            | [Google](https://developers.google.com/)        |
-| 28  | Front-end        | Web       |                             | [Solid Start](https://start.solidjs.com/)  |                                                 |
-| 29  | Front-end        | Web       |                             | [Svelte](https://svelte.dev/)              | [Vercel](https://vercel.com)                    |
-| 30  | Front-end        | Mobild    | React Native                | [Expo](https://expo.dev/)                  |                                                 |
-| 31  | Front-end        | Desktop   |                             | [Tauri](https://tauri.app/)                |                                                 |
-| 32  | Back-end         | Framework | GraphQL                     | [Apollo](https://www.apollographql.com/)   |                                                 |
-| 33  | Back-end         | Framework |                             | [Express.js](https://expressjs.com/)       |                                                 |
-| 34  | Back-end         | Framework |                             | [Hono](https://hono.dev/)                  |                                                 |
-| 35  | Back-end         | Framework |                             | [Nest.js](https://nestjs.com/)             |                                                 |
-| 36  | Back-end         | ORM       |                             | [Drizzle](https://orm.drizzle.team/)       |                                                 |
-| 37  | Back-end         | ORM       |                             | [MikroORM](https://mikro-orm.io/)          |                                                 |
-| 38  | Back-end         | ORM       |                             | [Prisma](https://www.prisma.io/)           |                                                 |
-| 39  | Back-end         | ORM       |                             | [TypeORM](https://typeorm.io/)             |                                                 |
-| 40  | Full-stack       |           |                             | [tRPC](https://trpc.io/)                   |                                                 |
+## Table of Content
+
+- [TypeScript](#typescript)
+  - [Table of Content](#table-of-content)
+  - [All](#all)
+  - [Front-end](#front-end)
+    - [Web](#web)
+    - [Native](#native)
+  - [Back-end](#back-end)
+
+## All
+
+| No  | Supergroup       | Group | Subgroup | Name                                       | Maintainer               |
+| --- | ---------------- | ----- | -------- | ------------------------------------------ | ------------------------ |
+| 1   | Engine           |       |          | [V8](https://v8.dev/)                      |                          |
+| 2   | Engine           |       |          | [JavaScriptCore][jsc]                      |                          |
+| 3   | Engine           |       |          | [SpiderMonkey](https://spidermonkey.dev/)  |                          |
+| 4   | Runtime          |       |          | [Bun](https://bun.sh/)                     |                          |
+| 5   | Runtime          |       |          | [Deno](https://deno.com/)                  |                          |
+| 6   | Runtime          |       |          | [Node.js](https://nodejs.org/en)           |                          |
+| 7   | Packages Manager |       |          | [npm](https://www.npmjs.com/)              |                          |
+| 8   | Packages Manager |       |          | [pnpm](https://pnpm.io/)                   |                          |
+| 9   | Packages Manager |       |          | [yarn](https://yarnpkg.com/)               |                          |
+| 10  | CLI              |       |          | [Commander][commander]                     |                          |
+| 11  | CLI              |       |          | [OCLIF](https://oclif.io/)                 | [Salesforce][salesforce] |
+| 12  | CLI              |       |          | [Yargs](https://yargs.js.org/)             |                          |
+| 13  | Docs             | HTML  |          | [Docsify](https://docsify.js.org/)         |                          |
+| 14  | Docs             | React |          | [Astro](https://astro.build/)              |                          |
+| 15  | Docs             | React |          | [Docusaurus](https://docusaurus.io/)       | [Facebook][facebook]     |
+| 16  | Docs             | Vue   |          | [VuePress](https://vuepress.vuejs.org/)    |                          |
+| 17  | CSS Utilities    |       |          | [Bootstrap](https://getbootstrap.com/)     |                          |
+| 18  | CSS Utilities    |       |          | [Bulma](https://bulma.io/)                 |                          |
+| 19  | CSS Utilities    |       |          | [Materialize](https://materializecss.com/) |                          |
+| 20  | CSS Utilities    |       |          | [TailwindCSS](https://tailwindcss.com/)    |                          |
+| 21  | CSS Components   |       |          | [DaisyUI](https://daisyui.com/)            |                          |
+| 22  | CSS Components   |       |          | [Flowbite](https://flowbite.com/)          |                          |
+| 23  | CSS Components   |       |          | [shadcn/ui](https://ui.shadcn.com/)        |                          |
+| 24  | CSS Components   |       |          | [TailwindUI](https://tailwindui.com/)      |                          |
+| 25  | Back-end         | ORM   |          | [Drizzle](https://orm.drizzle.team/)       |                          |
+| 26  | Back-end         | ORM   |          | [MikroORM](https://mikro-orm.io/)          |                          |
+| 27  | Back-end         | ORM   |          | [Prisma](https://www.prisma.io/)           |                          |
+| 28  | Back-end         | ORM   |          | [TypeORM](https://typeorm.io/)             |                          |
+| 29  | Full-stack       |       |          | [tRPC](https://trpc.io/)                   |                          |
+
+## Front-end
+
+### Web
+
+| No  | Group  | Subgroup       | Name                            | Maintainer                               |
+| --- | ------ | -------------- | ------------------------------- | ---------------------------------------- |
+| 1   | Client |                | [Vue](https://vuejs.org/)       |                                          |
+| 2   | Client |                | [Svelte](https://svelte.dev/)   | [Vercel](https://vercel.com)             |
+| 3   | Client |                | [Angular](https://angular.dev/) | [Google](https://developers.google.com/) |
+| 4   | Client |                | [Solid][solid]                  |                                          |
+| 5   | Client |                | [React][react]                  |                                          |
+| 6   | Client | [React][react] | [Preact](https://preactjs.com/) |                                          |
+| 7   | Meta   | [React][react] | [Next.js](https://nextjs.org/)  | [Vercel](https://vercel.com)             |
+| 8   | Meta   | [React][react] | [Gatsby][gatsby]                | [Netlify](https://www.netlify.com/)      |
+| 9   | Meta   | [Solid][solid] | [SolidStart][solid-start]       |                                          |
+| 10  | Meta   | [Vue][vue]     | [Nuxt](https://nuxt.com/)       |                                          |
+
+### Native
+
+| No  | Group   | Subgroup     | Name                                     | Maintainer           |
+| --- | ------- | ------------ | ---------------------------------------- | -------------------- |
+| 1   | Mobile  |              | [Ionic](https://ionicframework.com/)     |                      |
+| 2   | Mobile  |              | [React Native](https://reactnative.dev/) | [Facebook][facebook] |
+| 3   | Mobile  | React Native | [Expo](https://expo.dev/)                |                      |
+| 4   | Desktop |              | [Tauri](https://tauri.app/)              |                      |
+| 5   | Desktop |              | [Electron](https://www.electronjs.org/)  |                      |
+
+## Back-end
+
+| No  | Group     | Subgroup    | Name                                     | Maintainer |
+| --- | --------- | ----------- | ---------------------------------------- | ---------- |
+| 1   | Framework | GraphQL     | [Apollo](https://www.apollographql.com/) |            |
+| 2   | Framework | Serverless  | [Hono](https://hono.dev/)                |            |
+| 3   | Framework | Lightweight | [Express.js](https://expressjs.com/)     |            |
+| 4   | Framework | Lightweight | [Fastify](https://fastify.dev/)          |            |
+| 5   | Framework | Enterprise  | [Nest.js](https://nestjs.com/)           |            |
 
 [commander]: https://github.com/tj/commander.js
+[facebook]: https://developers.facebook.com/
+[gatsby]: https://www.gatsbyjs.com/
 [jsc]: https://developer.apple.com/documentation/javascriptcore
+[react]: https://react.dev/
+[salesforce]: https://developer.salesforce.com/
+[solid]: https://www.solidjs.com/
+[solid-start]: https://start.solidjs.com/
+[vue]: https://vuejs.org/
