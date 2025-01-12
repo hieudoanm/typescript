@@ -5,10 +5,13 @@
 - [TypeScript](#typescript)
   - [Table of Content](#table-of-content)
   - [All](#all)
+  - [Dev Tools](#dev-tools)
   - [Front-end](#front-end)
     - [Web](#web)
     - [Native](#native)
   - [Back-end](#back-end)
+    - [Framework](#framework)
+    - [ORM](#orm)
 
 ## All
 
@@ -38,11 +41,17 @@
 | 22  | CSS Components   |       |          | [Flowbite](https://flowbite.com/)          |                          |
 | 23  | CSS Components   |       |          | [shadcn/ui](https://ui.shadcn.com/)        |                          |
 | 24  | CSS Components   |       |          | [TailwindUI](https://tailwindui.com/)      |                          |
-| 25  | Back-end         | ORM   |          | [Drizzle](https://orm.drizzle.team/)       |                          |
-| 26  | Back-end         | ORM   |          | [MikroORM](https://mikro-orm.io/)          |                          |
-| 27  | Back-end         | ORM   |          | [Prisma](https://www.prisma.io/)           |                          |
-| 28  | Back-end         | ORM   |          | [TypeORM](https://typeorm.io/)             |                          |
-| 29  | Full-stack       |       |          | [tRPC](https://trpc.io/)                   |                          |
+| 25  | Full-stack       |       |          | [tRPC](https://trpc.io/)                   |                          |
+
+## Dev Tools
+
+| No  | Group     | Subgroup             | Name                             | Maintainer |
+| --- | --------- | -------------------- | -------------------------------- | ---------- |
+| 1   | Dev Tools | Linter and Formatter | [ESLint](https://eslint.org/)    |            |
+| 2   | Dev Tools | Linter and Formatter | [Prettier](https://prettier.io/) |            |
+| 3   | Dev Tools | Linter and Formatter | [Biome](https://biomejs.dev/)    |            |
+| 4   | Dev Tools | Build Tools          | [Vite](https://vite.dev/)        |            |
+| 5   | Dev Tools | Build Tools          | [Turbo](https://turbo.build/)    |            |
 
 ## Front-end
 
@@ -73,6 +82,8 @@
 
 ## Back-end
 
+### Framework
+
 | No  | Group     | Subgroup    | Name                                     | Maintainer |
 | --- | --------- | ----------- | ---------------------------------------- | ---------- |
 | 1   | Framework | GraphQL     | [Apollo](https://www.apollographql.com/) |            |
@@ -80,6 +91,16 @@
 | 3   | Framework | Lightweight | [Express.js](https://expressjs.com/)     |            |
 | 4   | Framework | Lightweight | [Fastify](https://fastify.dev/)          |            |
 | 5   | Framework | Enterprise  | [Nest.js](https://nestjs.com/)           |            |
+
+### ORM
+
+| No  | Group | Subgroup | Name                                 | Maintainer |
+| --- | ----- | -------- | ------------------------------------ | ---------- |
+| 1   | ORM   |          | [Drizzle](https://orm.drizzle.team/) |            |
+| 2   | ORM   |          | [MikroORM](https://mikro-orm.io/)    |            |
+| 3   | ORM   |          | [Prisma](https://www.prisma.io/)     |            |
+| 4   | ORM   |          | [TypeORM](https://typeorm.io/)       |            |
+| 5   | ORM   |          | [Sequelize](https://sequelize.org/)  |            |
 
 [commander]: https://github.com/tj/commander.js
 [facebook]: https://developers.facebook.com/
