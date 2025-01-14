@@ -52,7 +52,7 @@
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.9",
     "prisma": "6.2.1",
-    "sass": "1.83.3",
+    "sass": "1.83.4",
     "tailwindcss": "3.4.17",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
