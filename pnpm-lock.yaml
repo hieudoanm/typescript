@@ -213,8 +213,8 @@ importers:
         version: 4.6.16
     devDependencies:
       '@dotenvx/dotenvx':
-        specifier: 1.32.1
-        version: 1.32.1
+        specifier: 1.33.0
+        version: 1.33.0
       '@eslint/js':
         specifier: 9.18.0
         version: 9.18.0
@@ -441,8 +441,8 @@ importers:
         specifier: 4.20250109.0
         version: 4.20250109.0
       '@dotenvx/dotenvx':
-        specifier: 1.32.1
-        version: 1.32.1
+        specifier: 1.33.0
+        version: 1.33.0
       '@eslint/js':
         specifier: 9.18.0
         version: 9.18.0
@@ -3085,8 +3085,8 @@ packages:
     resolution: {integrity: sha512-e7zcB6TPnVzyUaHMJyLSArKa2AG3h9+4CfvKXKKWNx6hRs+p0a+u7HHTJBgo6KW2m+vqDnuIHK4X+bhmoghAFA==}
     engines: {node: '>=18.0'}
 
-  '@dotenvx/dotenvx@1.32.1':
-    resolution: {integrity: sha512-xuTL8XLFkC0B0xHQzBPROY6WBwb9MA0LYBVNIinJ0VD9+gHOIuSyQut0RyDA7tmqxvZQ3C4roZ0HaWvHgX3sZQ==}
+  '@dotenvx/dotenvx@1.33.0':
+    resolution: {integrity: sha512-fWVhSrdtObkRJ5SwyNSEUPPm5BHXGlQJAbXeJfrcnonSVdMhKG9pihvJWv86sv8uR0sF/Yd0oI+a9Mj3ISgM3Q==}
     hasBin: true
 
   '@ecies/ciphers@0.2.2':
@@ -21459,7 +21459,7 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@dotenvx/dotenvx@1.32.1':
+  '@dotenvx/dotenvx@1.33.0':
     dependencies:
       commander: 11.1.0
       dotenv: 16.4.7
