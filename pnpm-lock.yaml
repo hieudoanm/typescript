@@ -207,10 +207,10 @@ importers:
     dependencies:
       '@hono/graphql-server':
         specifier: 0.5.1
-        version: 0.5.1(hono@4.6.16)
+        version: 0.5.1(hono@4.6.17)
       hono:
-        specifier: 4.6.16
-        version: 4.6.16
+        specifier: 4.6.17
+        version: 4.6.17
     devDependencies:
       '@dotenvx/dotenvx':
         specifier: 1.33.0
@@ -434,8 +434,8 @@ importers:
         specifier: 6.2.1
         version: 6.2.1(prisma@6.2.1)
       hono:
-        specifier: 4.6.16
-        version: 4.6.16
+        specifier: 4.6.17
+        version: 4.6.17
     devDependencies:
       '@cloudflare/workers-types':
         specifier: 4.20250109.0
@@ -3732,7 +3732,7 @@ packages:
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
-    engines: {'0': node >=0.10.0}
+    engines: {node: '>=0.10.0'}
 
   '@expo/cli@0.22.9':
     resolution: {integrity: sha512-GFW1+InbgTz0+10qWfoo5fyBU2DhhPuJkL4TUnG7GTq8lDlim88JLghJVbq0uAX/xDLcd326QnI0XONsUGSWrw==}
@@ -10736,8 +10736,8 @@ packages:
   hoist-non-react-statics@3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
 
-  hono@4.6.16:
-    resolution: {integrity: sha512-iE6xOPwDYlfnZFwk6BfIMMIH4WZm3pPhz6rc1uJM/OPew0pjG5K6p8WTLaMBY1/szF/T0TaEjprMpwn16BA0NQ==}
+  hono@4.6.17:
+    resolution: {integrity: sha512-Kbh4M0so2RzLiIg6iP33DoTU68TdvP2O/kb1Hhhdwa37fazuf402ig8ZRfjkz2dqXwiWl2dAgh0f++TuKAdOtQ==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -21866,14 +21866,14 @@ snapshots:
     dependencies:
       '@hapi/hoek': 9.3.0
 
-  '@hono/graphql-server@0.5.1(hono@4.6.16)':
+  '@hono/graphql-server@0.5.1(hono@4.6.17)':
     dependencies:
       graphql: 16.10.0
-      hono: 4.6.16
+      hono: 4.6.17
 
-  '@hono/node-server@1.13.7(hono@4.6.16)':
+  '@hono/node-server@1.13.7(hono@4.6.17)':
     dependencies:
-      hono: 4.6.16
+      hono: 4.6.17
 
   '@humanfs/core@0.19.1': {}
 
@@ -22358,7 +22358,7 @@ snapshots:
       '@axiomhq/js': 1.0.0-rc.3
       '@babel/core': 7.26.0
       '@babel/types': 7.26.0
-      '@hono/node-server': 1.13.7(hono@4.6.16)
+      '@hono/node-server': 1.13.7(hono@4.6.17)
       '@million/install': 1.0.14
       '@rollup/pluginutils': 5.1.4(rollup@2.79.2)
       '@rrweb/types': 2.0.0-alpha.16
@@ -22366,7 +22366,7 @@ snapshots:
       ci-info: 4.1.0
       esbuild: 0.20.2
       faster-babel-types: 0.1.0(@babel/types@7.26.0)
-      hono: 4.6.16
+      hono: 4.6.17
       isomorphic-fetch: 3.0.0(encoding@0.1.13)
       nanoid: 5.0.9
       ohash: 1.1.4
@@ -30609,7 +30609,7 @@ snapshots:
     dependencies:
       react-is: 16.13.1
 
-  hono@4.6.16: {}
+  hono@4.6.17: {}
 
   hookable@5.5.3: {}
 
