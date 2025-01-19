@@ -139,8 +139,8 @@ importers:
         specifier: 16.10.0
         version: 16.10.0
       graphql-http:
-        specifier: 1.22.3
-        version: 1.22.3(graphql@16.10.0)
+        specifier: 1.22.4
+        version: 1.22.4(graphql@16.10.0)
       ruru:
         specifier: 2.0.0-beta.17
         version: 2.0.0-beta.17(graphile-config@0.0.1-beta.9)(graphql@16.10.0)
@@ -10506,8 +10506,8 @@ packages:
       cosmiconfig-toml-loader:
         optional: true
 
-  graphql-http@1.22.3:
-    resolution: {integrity: sha512-sgUz/2DZt+QvY6WrpAsAXUvhnIkp2eX9jN78V8DAtFcpZi/nfDrzDt2byYjyoJzRcWuqhE0K63g1QMewt73U6A==}
+  graphql-http@1.22.4:
+    resolution: {integrity: sha512-OC3ucK988teMf+Ak/O+ZJ0N2ukcgrEurypp8ePyJFWq83VzwRAmHxxr+XxrMpxO/FIwI4a7m/Fzv3tWGJv0wPA==}
     engines: {node: '>=12'}
     peerDependencies:
       graphql: '>=0.11 <=16'
@@ -30261,7 +30261,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  graphql-http@1.22.3(graphql@16.10.0):
+  graphql-http@1.22.4(graphql@16.10.0):
     dependencies:
       graphql: 16.10.0
 
