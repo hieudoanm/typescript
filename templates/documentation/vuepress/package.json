@@ -5,6 +5,7 @@
   "license": "GPL-3.0",
   "type": "module",
   "scripts": {
+    "format": "prettier --cache --write .",
     "build": "vuepress build docs",
     "dev": "vuepress dev docs --clean-cache",
     "update-package": "pnpm dlx vp-update"
@@ -16,6 +17,7 @@
     "eslint": "9.18.0",
     "eslint-plugin-vue": "9.32.0",
     "globals": "15.14.0",
+    "prettier": "3.4.2",
     "typescript-eslint": "8.20.0",
     "vue": "3.5.13",
     "vuepress": "2.0.0-rc.19"
