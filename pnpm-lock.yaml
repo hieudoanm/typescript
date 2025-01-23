@@ -562,8 +562,8 @@ importers:
         specifier: 11.0.2
         version: 11.0.2(@nestjs/common@11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.4)(reflect-metadata@0.2.2)
       '@nestjs/throttler':
-        specifier: 6.3.0
-        version: 6.3.0(@nestjs/common@11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.4)(reflect-metadata@0.2.2)
+        specifier: 6.4.0
+        version: 6.4.0(@nestjs/common@11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.4)(reflect-metadata@0.2.2)
       axios:
         specifier: 1.7.9
         version: 1.7.9
@@ -4846,11 +4846,11 @@ packages:
       '@nestjs/platform-express':
         optional: true
 
-  '@nestjs/throttler@6.3.0':
-    resolution: {integrity: sha512-IqTMbl5Iyxjts7NwbVriDND0Cnr8rwNqAPpF5HJE+UV+2VrVUBwCfDXKEiXu47vzzaQLlWPYegBsGO9OXxa+oQ==}
+  '@nestjs/throttler@6.4.0':
+    resolution: {integrity: sha512-osL67i0PUuwU5nqSuJjtUJZMkxAnYB4VldgYUMGzvYRJDCqGRFMWbsbzm/CkUtPLRL30I8T74Xgt/OQxnYokiA==}
     peerDependencies:
-      '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
-      '@nestjs/core': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
+      '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0
+      '@nestjs/core': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0
       reflect-metadata: ^0.1.13 || ^0.2.0
 
   '@netlify/functions@2.8.2':
@@ -23043,7 +23043,7 @@ snapshots:
     optionalDependencies:
       '@nestjs/platform-express': 11.0.4(@nestjs/common@11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.4)
 
-  '@nestjs/throttler@6.3.0(@nestjs/common@11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.4)(reflect-metadata@0.2.2)':
+  '@nestjs/throttler@6.4.0(@nestjs/common@11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.4)(reflect-metadata@0.2.2)':
     dependencies:
       '@nestjs/common': 11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 11.0.4(@nestjs/common@11.0.4(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@11.0.4)(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -29350,7 +29350,7 @@ snapshots:
       '@typescript-eslint/parser': 8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
       eslint: 9.18.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))
+      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0)(eslint@9.18.0(jiti@2.4.2))
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0)(eslint@9.18.0(jiti@2.4.2))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.18.0(jiti@2.4.2))
       eslint-plugin-react: 7.37.4(eslint@9.18.0(jiti@2.4.2))
@@ -29374,7 +29374,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2)):
+  eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0)(eslint@9.18.0(jiti@2.4.2)):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.0(supports-color@9.4.0)
@@ -29400,14 +29400,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2)):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0)(eslint@9.18.0(jiti@2.4.2)):
     dependencies:
       debug: 4.4.0(supports-color@9.4.0)
     optionalDependencies:
       '@typescript-eslint/parser': 8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
       eslint: 9.18.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))
+      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0)(eslint@9.18.0(jiti@2.4.2))
     transitivePeerDependencies:
       - supports-color
 
@@ -29506,7 +29506,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.18.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.21.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0)(eslint@9.18.0(jiti@2.4.2))
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
