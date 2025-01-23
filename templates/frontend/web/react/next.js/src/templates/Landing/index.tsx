@@ -52,7 +52,7 @@ export const Landing: React.FC = () => {
         <section className="pt-20 md:pt-40">
           <div className="container mx-auto px-8 lg:flex">
             <div className="text-center lg:w-1/2 lg:text-left">
-              <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">
+              <h1 className="text-4xl leading-none font-bold lg:text-5xl xl:text-6xl">
                 Main title of your landing page
               </h1>
               <p className="mt-6 text-xl font-light lg:text-2xl">
@@ -75,7 +75,7 @@ export const Landing: React.FC = () => {
           </div>
         </section>
 
-        <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+        <section id="features" className="py-20 lg:pt-48 lg:pb-40">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-semibold lg:text-5xl">
               Main Features
@@ -116,10 +116,10 @@ export const Landing: React.FC = () => {
           <div className="container mx-auto flex flex-col items-center px-16 lg:flex-row">
             <div className="lg:w-1/2">
               <div className="lg:pr-32 xl:pr-48">
-                <h3 className="text-3xl font-semibold leading-tight">
+                <h3 className="text-3xl leading-tight font-semibold">
                   Market Analysis
                 </h3>
-                <p className="mt-8 text-xl font-light leading-relaxed">
+                <p className="mt-8 text-xl leading-relaxed font-light">
                   Our team of enthusiastic marketers will analyse and evaluate
                   how your company stacks against the closest competitors
                 </p>
@@ -135,10 +135,10 @@ export const Landing: React.FC = () => {
           <div className="container mx-auto flex flex-col items-center px-16 lg:flex-row">
             <div className="lg:w-1/2">
               <div className="lg:pl-32 xl:pl-48">
-                <h3 className="text-3xl font-semibold leading-tight">
+                <h3 className="text-3xl leading-tight font-semibold">
                   Design And Plan Your Business Growth Steps
                 </h3>
-                <p className="mt-8 text-xl font-light leading-relaxed">
+                <p className="mt-8 text-xl leading-relaxed font-light">
                   Once the market analysis process is completed our staff will
                   search for opportunities that are in reach
                 </p>
@@ -154,10 +154,10 @@ export const Landing: React.FC = () => {
           <div className="container mx-auto flex flex-col items-center px-16 lg:flex-row">
             <div className="lg:w-1/2">
               <div className="lg:pr-32 xl:pr-48">
-                <h3 className="text-3xl font-semibold leading-tight">
+                <h3 className="text-3xl leading-tight font-semibold">
                   Search For Performance Optimization
                 </h3>
-                <p className="mt-8 text-xl font-light leading-relaxed">
+                <p className="mt-8 text-xl leading-relaxed font-light">
                   With all the information in place you will be presented with
                   an action plan that your company needs to follow
                 </p>
@@ -171,7 +171,7 @@ export const Landing: React.FC = () => {
 
         <section id="stats" className="py-20 lg:pt-32">
           <div className="container mx-auto text-center">
-            <p className="uppercase tracking-wider text-gray-600">
+            <p className="tracking-wider text-gray-600 uppercase">
               Our customers get results
             </p>
             <div className="mt-8 flex flex-col sm:flex-row lg:px-24">
@@ -199,7 +199,7 @@ export const Landing: React.FC = () => {
 
         <section id="testimonials" className="py-20 lg:py-40">
           <div className="container mx-auto">
-            <p className="mb-8 text-center uppercase tracking-wider text-gray-600">
+            <p className="mb-8 text-center tracking-wider text-gray-600 uppercase">
               What customers are saying
             </p>
             <div className="flex flex-col md:-mx-3 md:flex-row">
@@ -302,7 +302,7 @@ export const Landing: React.FC = () => {
           </p>
         </section>
       </main>
-      <footer className="container mx-auto mb-8 mt-48 px-3 py-16 text-gray-800">
+      <footer className="container mx-auto mt-48 mb-8 px-3 py-16 text-gray-800">
         <div className="-mx-3 flex">
           <div className="flex-1 px-3">
             <h2 className="text-lg font-semibold">About Us</h2>
