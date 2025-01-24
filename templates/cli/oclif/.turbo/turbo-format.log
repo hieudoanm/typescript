@@ -3,9 +3,9 @@
 > @oclif/cli@0.0.1 format /Users/hieudoan/git/github.com/hieudoanm/typescript/templates/cli/oclif
 > prettier --cache --write .
 
-.gitignore[2K[1G.node-version[2K[1G.npmrc[2K[1G.nvmrc[2K[1G.prettierignore[2K[1G.prettierrc.json[2K[1G[90m.prettierrc.json[39m 43ms (unchanged)
-.turbo/turbo-format.log[2K[1Geslint.config.mjs[2K[1G[90meslint.config.mjs[39m 12ms (unchanged)
-package.json[2K[1G[90mpackage.json[39m 3ms (unchanged)
-README.md[2K[1G[90mREADME.md[39m 14ms (unchanged)
-src/main.ts[2K[1G[90msrc/main.ts[39m 47ms (unchanged)
-tsconfig.json[2K[1G[90mtsconfig.json[39m 15ms (unchanged)
+.gitignore[2K[1G.node-version[2K[1G.npmrc[2K[1G.nvmrc[2K[1G.prettierignore[2K[1G.prettierrc.json[2K[1G[90m.prettierrc.json[39m 27ms (unchanged)
+.turbo/turbo-format.log[2K[1Geslint.config.mjs[2K[1G[90meslint.config.mjs[39m 15ms (unchanged)
+package.json[2K[1G[90mpackage.json[39m 6ms (unchanged)
+README.md[2K[1G[90mREADME.md[39m 39ms (unchanged)
+src/main.ts[2K[1G[90msrc/main.ts[39m 24ms (unchanged)
+tsconfig.json[2K[1G[90mtsconfig.json[39m 11ms (unchanged)
