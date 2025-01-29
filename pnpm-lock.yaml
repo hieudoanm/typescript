@@ -705,8 +705,8 @@ importers:
   templates/cli/oclif:
     dependencies:
       '@oclif/core':
-        specifier: 4.2.4
-        version: 4.2.4
+        specifier: 4.2.5
+        version: 4.2.5
       figlet:
         specifier: 1.8.0
         version: 1.8.0
@@ -5074,8 +5074,8 @@ packages:
     engines: {node: ^14.18.0 || >=16.10.0, npm: '>=5.10.0'}
     hasBin: true
 
-  '@oclif/core@4.2.4':
-    resolution: {integrity: sha512-JDqdhX6fBbijY3ouubfmX7yFBXy95YSpiAVk0TAaXXCoSqoo/2WMcV2Ufv2V+8zriafPU/rvKgI+ZE07/7HwfQ==}
+  '@oclif/core@4.2.5':
+    resolution: {integrity: sha512-bdXOojq8GaPnWnDgVOw030JlUROJEiDLXiV3XUUGUQDEp6YpVQvEYLIrUsEvyfASU3z3FGg3DC9k0kprcOYdhw==}
     engines: {node: '>=18.0.0'}
 
   '@octokit/auth-token@2.5.0':
@@ -24006,7 +24006,7 @@ snapshots:
     dependencies:
       consola: 3.3.3
 
-  '@oclif/core@4.2.4':
+  '@oclif/core@4.2.5':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.9.0
