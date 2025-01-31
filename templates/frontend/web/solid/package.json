@@ -10,7 +10,7 @@
   "private": true,
   "packageManager": "pnpm@9.15.4",
   "engines": {
-    "npm": "11.0.0"
+    "npm": "11.1.0"
   },
   "scripts": {
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
