@@ -1,6 +1,7 @@
 {
-  "name": "@ts/angular",
+  "name": "@frontend/angular",
   "version": "0.0.1",
+  "description": "Front-end - Angular",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

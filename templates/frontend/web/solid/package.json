@@ -1,7 +1,7 @@
 {
-  "name": "@ts/solid",
+  "name": "@frontend/solid",
   "version": "0.0.1",
-  "description": "TypeScript - Solid",
+  "description": "Front-end - Solid.js",
   "main": "index.js",
   "repository": "git@github.com:hieudoanm/hieudoanm.git",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

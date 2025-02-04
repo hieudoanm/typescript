@@ -1,7 +1,7 @@
 {
-  "name": "@ts/graphql-express",
+  "name": "@graphql/express",
   "version": "0.0.1",
-  "description": "TypeScript - GraphQL - Express.js",
+  "description": "GraphQL - Express.js",
   "main": "dist/server.js",
   "repository": "git@github.com:hieudoanm/hieudoanm.git",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

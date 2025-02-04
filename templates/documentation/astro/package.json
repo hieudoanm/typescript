@@ -1,5 +1,6 @@
 {
-  "name": "@hieudoanm/astro",
+  "name": "@documentation/astro",
+  "description": "Documentation - Astro",
   "type": "module",
   "version": "0.0.1",
   "scripts": {

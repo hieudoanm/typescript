@@ -1,7 +1,7 @@
 {
-  "name": "@ts/rest-nest",
+  "name": "@rest/nest",
   "version": "0.0.1",
-  "description": "TypeScript - Nest.js",
+  "description": "REST - Nest.js",
   "main": "dist/main",
   "repository": "git@github.com:hieudoanm/hieudoanm.git",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

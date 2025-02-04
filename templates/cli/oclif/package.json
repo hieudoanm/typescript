@@ -1,5 +1,5 @@
 {
-  "name": "@oclif/cli",
+  "name": "@cli/oclif",
   "version": "0.0.1",
   "description": "Open CLI Framework",
   "main": "dist/main.js",

@@ -1,7 +1,7 @@
 {
-  "name": "@ts/graphql-hono",
+  "name": "@graphql/hono",
   "version": "0.0.1",
-  "description": "TypeScript - Hono - GraphQL",
+  "description": "GraphQL - Hono",
   "main": "index.js",
   "repository": "git@github.com:hieudoanm/hieudoanm.git",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

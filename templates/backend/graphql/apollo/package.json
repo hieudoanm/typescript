@@ -1,5 +1,5 @@
 {
-  "name": "@ts/graphql-apollo",
+  "name": "@graphql/apollo",
   "version": "0.0.1",
   "description": "TypeScript - GraphQL - Apollo",
   "main": "dist/index",

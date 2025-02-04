@@ -1,7 +1,7 @@
 {
-  "name": "@hieudoanm/docsify",
+  "name": "@documentation/docsify",
   "version": "0.0.1",
-  "description": "",
+  "description": "Documentation - Docsify",
   "main": "index.js",
   "scripts": {
     "serve": "docsify serve ."

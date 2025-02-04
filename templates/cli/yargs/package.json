@@ -1,7 +1,7 @@
 {
-  "name": "@yargs/cli",
+  "name": "@cli/yargs",
   "version": "0.0.1",
-  "description": "Yargs CLI",
+  "description": "CLI - Yargs",
   "main": "dist/main.js",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "repository": {

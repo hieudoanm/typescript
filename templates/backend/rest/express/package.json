@@ -1,7 +1,7 @@
 {
-  "name": "@ts/rest-express",
+  "name": "@rest/express",
   "version": "0.0.1",
-  "description": "TypeScript - REST - Express.js",
+  "description": "REST - Express.js",
   "main": "dist/server.js",
   "repository": "git@github.com:hieudoanm/hieudoanm.git",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

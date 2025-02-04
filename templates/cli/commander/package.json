@@ -1,7 +1,7 @@
 {
-  "name": "@commander/cli",
+  "name": "@cli/commander",
   "version": "0.0.1",
-  "description": "Commander CLI",
+  "description": "CLI - Commander",
   "main": "dist/main.js",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "repository": {
