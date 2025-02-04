@@ -969,14 +969,14 @@ importers:
         specifier: 5.66.0
         version: 5.66.0(react@19.0.0)
       expo:
-        specifier: 52.0.28
-        version: 52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+        specifier: 52.0.29
+        version: 52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       expo-linking:
         specifier: 7.0.5
-        version: 7.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+        version: 7.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       expo-router:
         specifier: 4.0.17
-        version: 4.0.17(7k36tntgshwfk3mjkjxfl73axu)
+        version: 4.0.17(0f802c8b4d45d0bc96dbbc5769b02e10)
       expo-status-bar:
         specifier: 2.0.1
         version: 2.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
@@ -3854,8 +3854,8 @@ packages:
   '@expo/env@0.4.1':
     resolution: {integrity: sha512-oDtbO3i9yXD1nx93acWiPTWGljJ3vABn35x1NAbqtQ2JL6mFOcRcArt1dwi4imZyLnG4VCcjabT9irj+LgYntw==}
 
-  '@expo/fingerprint@0.11.7':
-    resolution: {integrity: sha512-2rfYVS4nqWmOPQk+AL5GPfPSawbqqmI5mL++bxAhWADt+d+fjoQYfIrGtjZxQ30f9o/a1PrRPVSuh2j09+diVg==}
+  '@expo/fingerprint@0.11.8':
+    resolution: {integrity: sha512-XzDOHr+fTpYPGFe+bIlWtwnLahzuQi7htPgpjLsfL+hKE/2S7wWYlRgB0omScyEBz2yXxzCk3GHJTcG+dffLAg==}
     hasBin: true
 
   '@expo/image-utils@0.6.4':
@@ -10041,8 +10041,8 @@ packages:
       expo: '*'
       react-native: '*'
 
-  expo-file-system@18.0.8:
-    resolution: {integrity: sha512-hU4N6Jfr08b5/mXH3A9JDpmmHJrH3rM8Xu46ZxEzqGTmyk+FW9raCPP93uyVl1LIxi8+21/p44ih/SHIwUY4cA==}
+  expo-file-system@18.0.9:
+    resolution: {integrity: sha512-DPuAyLP1012SFC92LKNJpLJw3QBbyxfYXNj9nTOdq299MYTf8kyOjLuVNMQqg1jX+yGiRDp0lHFoCgln0xsZYA==}
     peerDependencies:
       expo: '*'
       react-native: '*'
@@ -10097,8 +10097,8 @@ packages:
       react: '*'
       react-native: '*'
 
-  expo@52.0.28:
-    resolution: {integrity: sha512-0O/JEYYCFszJ85frislm79YmlrQA5ghAQXV4dqcQcsy9FqftdicD4p/ehT36yiuGIhaKC6fn25LEaJ9JR2ei7g==}
+  expo@52.0.29:
+    resolution: {integrity: sha512-8Z6L75Uy7Lfnxii3XVCPuJkv/QNRto4yck2DxLdtuGk/5m3uvJshg/FmPv9xYpYHE08AxBfBj4IgLWw16FKMsA==}
     hasBin: true
     peerDependencies:
       '@expo/dom-webview': '*'
@@ -22019,7 +22019,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@expo/fingerprint@0.11.7':
+  '@expo/fingerprint@0.11.8':
     dependencies:
       '@expo/spawn-async': 1.7.2
       arg: 5.0.2
@@ -30352,11 +30352,11 @@ snapshots:
       jest-message-util: 29.7.0
       jest-util: 29.7.0
 
-  expo-asset@11.0.3(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
+  expo-asset@11.0.3(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
     dependencies:
       '@expo/image-utils': 0.6.4
-      expo: 52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
-      expo-constants: 17.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
+      expo: 52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo-constants: 17.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
       invariant: 2.2.4
       md5-file: 3.2.3
       react: 19.0.0
@@ -30364,35 +30364,35 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  expo-constants@17.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)):
+  expo-constants@17.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)):
     dependencies:
       '@expo/config': 10.0.8
       '@expo/env': 0.4.1
-      expo: 52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo: 52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       react-native: 0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)
     transitivePeerDependencies:
       - supports-color
 
-  expo-file-system@18.0.8(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)):
+  expo-file-system@18.0.9(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)):
     dependencies:
-      expo: 52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo: 52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       react-native: 0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)
       web-streams-polyfill: 3.3.3
 
-  expo-font@13.0.3(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0):
+  expo-font@13.0.3(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0):
     dependencies:
-      expo: 52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo: 52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       fontfaceobserver: 2.3.0
       react: 19.0.0
 
-  expo-keep-awake@14.0.2(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0):
+  expo-keep-awake@14.0.2(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0):
     dependencies:
-      expo: 52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo: 52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       react: 19.0.0
 
-  expo-linking@7.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
+  expo-linking@7.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
     dependencies:
-      expo-constants: 17.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
+      expo-constants: 17.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
       invariant: 2.2.4
       react: 19.0.0
       react-native: 0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)
@@ -30415,7 +30415,7 @@ snapshots:
     dependencies:
       invariant: 2.2.4
 
-  expo-router@4.0.17(7k36tntgshwfk3mjkjxfl73axu):
+  expo-router@4.0.17(0f802c8b4d45d0bc96dbbc5769b02e10):
     dependencies:
       '@expo/metro-runtime': 4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
       '@expo/server': 0.5.1(typescript@5.7.3)
@@ -30424,9 +30424,9 @@ snapshots:
       '@react-navigation/native': 7.0.14(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       '@react-navigation/native-stack': 7.2.0(@react-navigation/native@7.0.14(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native-safe-area-context@5.2.0(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native-screens@4.3.0(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       client-only: 0.0.1
-      expo: 52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
-      expo-constants: 17.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
-      expo-linking: 7.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo: 52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo-constants: 17.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
+      expo-linking: 7.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       react-helmet-async: 1.3.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-native-helmet-async: 2.0.4(react@19.0.0)
       react-native-is-edge-to-edge: 1.1.6(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
@@ -30450,21 +30450,21 @@ snapshots:
       react: 19.0.0
       react-native: 0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)
 
-  expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
+  expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
     dependencies:
       '@babel/runtime': 7.26.7
       '@expo/cli': 0.22.11(encoding@0.1.13)(graphql@16.10.0)
       '@expo/config': 10.0.8
       '@expo/config-plugins': 9.0.14
-      '@expo/fingerprint': 0.11.7
+      '@expo/fingerprint': 0.11.8
       '@expo/metro-config': 0.19.9
       '@expo/vector-icons': 14.0.4
       babel-preset-expo: 12.0.6(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))
-      expo-asset: 11.0.3(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
-      expo-constants: 17.0.5(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
-      expo-file-system: 18.0.8(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
-      expo-font: 13.0.3(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0)
-      expo-keep-awake: 14.0.2(expo@52.0.28(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0)
+      expo-asset: 11.0.3(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+      expo-constants: 17.0.5(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
+      expo-file-system: 18.0.9(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))
+      expo-font: 13.0.3(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0)
+      expo-keep-awake: 14.0.2(expo@52.0.29(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@expo/metro-runtime@4.0.1(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0)))(encoding@0.1.13)(graphql@16.10.0)(react-native@0.77.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react@19.0.0)
       expo-modules-autolinking: 2.0.7
       expo-modules-core: 2.2.0
       fbemitter: 3.0.0(encoding@0.1.13)
