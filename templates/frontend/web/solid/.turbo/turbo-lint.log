@@ -1,5 +1,0 @@
-
-
-> @ts/solid@0.0.1 lint /Users/hieudoan/git/github.com/hieudoanm/hieudoanm/languages/typescript/frontend/web/solid
-> eslint "{src,apps,libs,test}/**/*.ts" --fix
-

@@ -1,8 +1,0 @@
-
-
-> @ts/svelte@0.0.1 build /Users/hieudoan/git/github.com/hieudoanm/hieudoanm/languages/javascript/frontend/web/svelte
-> vite build
-
-[36mvite v5.4.11 [32mbuilding SSR bundle for production...[36m[39m
-[2K[1Gtransforming (1) [2m.svelte-kit/generated/server/internal.js[22m[2K[1Gtransforming (15) [2m../../../node_modules/.pnpm/svelte@5.2.7/node_modules/svelte/src/legacy/legacy-server.js[22m[2K[1Gtransforming (92) [2m../../../node_modules/.pnpm/svelte@5.2.7/node_modules/svelte/src/internal/client/dom/blocks/html.js[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[32m✓[39m 156 modules transformed.
-[2K[1Grendering chunks (1)...[2K[1Grendering chunks (2)...[2K[1Grendering chunks (3)...[2K[1Grendering chunks (4)...[2K[1Grendering chunks (5)...[2K[1Grendering chunks (6)...[2K[1Grendering chunks (7)...[2K[1Grendering chunks (8)...[2K[1G
