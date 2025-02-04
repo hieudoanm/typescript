@@ -1,8 +1,14 @@
 {
-  "name": "@graphql/http",
+  "name": "@kafka/http",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
+  "keywords": [
+    "kafks",
+    "http"
+  ],
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
   "scripts": {
     "lint": "eslint --fix .",
     "format": "prettier --cache --write .",
@@ -10,9 +16,10 @@
     "start": "node .",
     "dev": "nodemon"
   },
-  "keywords": [],
-  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
-  "license": "GPL-3.0",
+  "dependencies": {
+    "graphql": "16.10.0",
+    "kafkajs": "^2.2.4"
+  },
   "devDependencies": {
     "@eslint/js": "9.19.0",
     "@types/node": "22.13.1",
@@ -23,8 +30,5 @@
     "ts-node": "10.9.2",
     "typescript": "5.7.3",
     "typescript-eslint": "8.23.0"
-  },
-  "dependencies": {
-    "graphql": "16.10.0"
   }
 }
