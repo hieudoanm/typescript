@@ -481,7 +481,7 @@ importers:
         specifier: 16.10.0
         version: 16.10.0
       kafkajs:
-        specifier: ^2.2.4
+        specifier: 2.2.4
         version: 2.2.4
     devDependencies:
       '@eslint/js':
