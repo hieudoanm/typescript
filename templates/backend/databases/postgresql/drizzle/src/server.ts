@@ -1,8 +1,16 @@
+import { config } from '@dotenvx/dotenvx';
 import { createServer } from 'node:http';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { usersTable } from './db/schema';
 
-const server = createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello World!\n');
+config();
+
+const db = drizzle(process.env.DATABASE_URL!);
+
+const server = createServer(async (req, res) => {
+  const users = await db.select().from(usersTable);
+  res.writeHead(200, { 'Content-Type': 'application/json' });
+  res.end(JSON.stringify({ users }));
 });
 
 // starts a simple http server locally on port 3000
