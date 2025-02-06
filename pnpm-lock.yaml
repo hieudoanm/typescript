@@ -1310,8 +1310,8 @@ importers:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
       react-scroll:
-        specifier: 1.9.0
-        version: 1.9.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 1.9.2
+        version: 1.9.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       sharp:
         specifier: 0.33.5
         version: 0.33.5
@@ -15790,11 +15790,11 @@ packages:
     resolution: {integrity: sha512-reHgQnASWVXwHe0Ibk/EbsEPZhKrmNRf8EUNDmjMi1lzXec+Cj9litKxD0TG2ghAwg5V4sT0wzhiOgZSIefeVg==}
     hasBin: true
 
-  react-scroll@1.9.0:
-    resolution: {integrity: sha512-mamNcaX9Ng+JeSbBu97nWwRhYvL2oba+xR2GxvyXsbDeGP+gkYIKZ+aDMMj/n20TbV9SCWm/H7nyuNTSiXA6yA==}
+  react-scroll@1.9.2:
+    resolution: {integrity: sha512-+TX9qmQiTjE6o3rz3Uxzh2abEKwTxmOMv/HGfsYeQrpwNUj3Md9LSTsg0oMVK1+89o4+g6KkPPpDDJ2g8bg/aQ==}
     peerDependencies:
-      react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   react@19.0.0:
     resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
@@ -37813,7 +37813,7 @@ snapshots:
       mri: 1.2.0
       playwright: 1.50.1
 
-  react-scroll@1.9.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-scroll@1.9.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       lodash.throttle: 4.1.1
       prop-types: 15.8.1
