@@ -1,34 +1,33 @@
 {
-  "name": "@kafka/http",
+  "name": "@postgresql/prisma",
   "version": "0.0.1",
-  "description": "Kafka",
-  "main": "dist/index.js",
-  "keywords": [
-    "kafks",
-    "http"
-  ],
+  "description": "PostgreSQL - Prisma",
+  "main": "index.js",
+  "keywords": [],
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "license": "GPL-3.0",
+  "private": true,
   "scripts": {
     "lint": "eslint --fix .",
-    "format": "prettier --cache --write .",
+    "format": "prisma format && prettier --cache --write .",
     "build": "rimraf dist && tsc",
+    "prestart": "prisma generate",
     "start": "node .",
+    "predev": "prisma generate",
     "dev": "nodemon"
-  },
-  "dependencies": {
-    "graphql": "16.10.0",
-    "kafkajs": "2.2.4"
   },
   "devDependencies": {
     "@eslint/js": "9.19.0",
     "@types/node": "22.13.1",
     "eslint": "9.19.0",
     "globals": "15.14.0",
-    "nodemon": "3.1.9",
     "prettier": "3.4.2",
+    "prisma": "6.3.1",
     "ts-node": "10.9.2",
     "typescript": "5.7.3",
     "typescript-eslint": "8.23.0"
+  },
+  "dependencies": {
+    "@prisma/client": "6.3.1"
   }
 }
