@@ -1,4 +1,0 @@
-# ORM
-
-- Drizzle
-- Prisma
