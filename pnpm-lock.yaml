@@ -1134,8 +1134,8 @@ importers:
         specifier: 8.20.6
         version: 8.20.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@tanstack/react-virtual':
-        specifier: 3.12.1
-        version: 3.12.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 3.13.0
+        version: 3.13.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@trpc/client':
         specifier: 11.0.0-rc.741
         version: 11.0.0-rc.741(@trpc/server@11.0.0-rc.741(typescript@5.7.3))(typescript@5.7.3)
@@ -4594,7 +4594,7 @@ packages:
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
-    engines: {'0': node >=0.10.0}
+    engines: {node: '>=0.10.0'}
 
   '@expo/cli@0.22.13':
     resolution: {integrity: sha512-GpRkCt5Eb0pWXrvpvYswFhUxm0R5197P1acAgj242XfsdNhjVUfjScj+Z6raTRsW0SdIxmingpef2fZaHvUFKQ==}
@@ -7223,8 +7223,8 @@ packages:
       react: '>=16.8'
       react-dom: '>=16.8'
 
-  '@tanstack/react-virtual@3.12.1':
-    resolution: {integrity: sha512-dWbKcOnsJfuifCtZy+Q7Lq9l6zIDiEQmzi1j/obvnPaqaP73F1tlP8RFjHlB9Cb8fI3encSB3IzHEX9wjAR6qA==}
+  '@tanstack/react-virtual@3.13.0':
+    resolution: {integrity: sha512-CchF0NlLIowiM2GxtsoKBkXA4uqSnY2KvnXo+kyUFD4a4ll6+J0qzoRsUPMwXV/H26lRsxgJIr/YmjYum2oEjg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -7233,8 +7233,8 @@ packages:
     resolution: {integrity: sha512-P9dF7XbibHph2PFRz8gfBKEXEY/HJPOhym8CHmjF8y3q5mWpKx9xtZapXQUWCgkqvsK0R46Azuz+VaxD4Xl+Tg==}
     engines: {node: '>=12'}
 
-  '@tanstack/virtual-core@3.12.1':
-    resolution: {integrity: sha512-4siCMpfO0XVgXeObihia2E+Y8onkqp4rRTQFnsZcHb0AbUAGoyUEosrj5k5VNR0n8Mor4OjntWeoen/nwB809g==}
+  '@tanstack/virtual-core@3.13.0':
+    resolution: {integrity: sha512-NBKJP3OIdmZY3COJdWkSonr50FMVIi+aj5ZJ7hI/DTpEKg2RMfo/KvP8A3B/zOSpMgIe52B5E2yn7rryULzA6g==}
 
   '@tauri-apps/cli-darwin-arm64@2.2.7':
     resolution: {integrity: sha512-54kcpxZ3X1Rq+pPTzk3iIcjEVY4yv493uRx/80rLoAA95vAC0c//31Whz75UVddDjJfZvXlXZ3uSZ+bnCOnt0A==}
@@ -27615,15 +27615,15 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@tanstack/react-virtual@3.12.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@tanstack/react-virtual@3.13.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@tanstack/virtual-core': 3.12.1
+      '@tanstack/virtual-core': 3.13.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
   '@tanstack/table-core@8.20.5': {}
 
-  '@tanstack/virtual-core@3.12.1': {}
+  '@tanstack/virtual-core@3.13.0': {}
 
   '@tauri-apps/cli-darwin-arm64@2.2.7':
     optional: true
@@ -29060,12 +29060,12 @@ snapshots:
   '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.97.1)':
     dependencies:
       webpack: 5.97.1(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.97.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.97.1)
 
   '@webpack-cli/generators@3.0.7(encoding@0.1.13)(mem-fs@2.3.0)(prettier@3.4.2)(webpack-cli@6.0.1)(webpack@5.97.1)':
     dependencies:
       webpack: 5.97.1(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.97.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.97.1)
       yeoman-environment: 3.19.3
       yeoman-generator: 5.10.0(encoding@0.1.13)(mem-fs@2.3.0)(yeoman-environment@3.19.3)
     optionalDependencies:
@@ -29079,7 +29079,7 @@ snapshots:
   '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.97.1)':
     dependencies:
       webpack: 5.97.1(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.97.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.97.1)
 
   '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack-dev-server@5.2.0)(webpack@5.97.1)':
     dependencies:
@@ -42993,7 +42993,7 @@ snapshots:
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     optionalDependencies:
-      webpack-cli: 6.0.1(webpack@5.97.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.97.1)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
