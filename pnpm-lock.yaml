@@ -284,10 +284,10 @@ importers:
     dependencies:
       '@hono/graphql-server':
         specifier: 0.5.1
-        version: 0.5.1(hono@4.6.20)
+        version: 0.5.1(hono@4.7.0)
       hono:
-        specifier: 4.6.20
-        version: 4.6.20
+        specifier: 4.7.0
+        version: 4.7.0
     devDependencies:
       '@dotenvx/dotenvx':
         specifier: 1.34.0
@@ -545,8 +545,8 @@ importers:
         specifier: 6.3.1
         version: 6.3.1(prisma@6.3.1(typescript@5.7.3))(typescript@5.7.3)
       hono:
-        specifier: 4.6.20
-        version: 4.6.20
+        specifier: 4.7.0
+        version: 4.7.0
     devDependencies:
       '@cloudflare/workers-types':
         specifier: 4.20250204.0
@@ -11548,8 +11548,8 @@ packages:
   hoist-non-react-statics@3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
 
-  hono@4.6.20:
-    resolution: {integrity: sha512-5qfNQeaIptMaJKyoJ6N/q4gIq0DBp2FCRaLNuUI3LlJKL4S37DY/rLL1uAxA4wrPB39tJ3s+f7kgI79O4ScSug==}
+  hono@4.7.0:
+    resolution: {integrity: sha512-hV97aIR4WYbG30k234sD9B3VNr1ZWdQRmrVF76LKFlmI7O9Yo70mG9+mFwyQ6Sjrz4wH71GfnBxv6CPjcx3QNw==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -23527,14 +23527,14 @@ snapshots:
     dependencies:
       '@hapi/hoek': 9.3.0
 
-  '@hono/graphql-server@0.5.1(hono@4.6.20)':
+  '@hono/graphql-server@0.5.1(hono@4.7.0)':
     dependencies:
       graphql: 16.10.0
-      hono: 4.6.20
+      hono: 4.7.0
 
-  '@hono/node-server@1.13.8(hono@4.6.20)':
+  '@hono/node-server@1.13.8(hono@4.7.0)':
     dependencies:
-      hono: 4.6.20
+      hono: 4.7.0
 
   '@humanfs/core@0.19.1': {}
 
@@ -24132,7 +24132,7 @@ snapshots:
       '@axiomhq/js': 1.0.0-rc.3
       '@babel/core': 7.26.0
       '@babel/types': 7.26.0
-      '@hono/node-server': 1.13.8(hono@4.6.20)
+      '@hono/node-server': 1.13.8(hono@4.7.0)
       '@million/install': 1.0.14
       '@rollup/pluginutils': 5.1.4(rollup@2.79.2)
       '@rrweb/types': 2.0.0-alpha.16
@@ -24140,7 +24140,7 @@ snapshots:
       ci-info: 4.1.0
       esbuild: 0.20.2
       faster-babel-types: 0.1.0(@babel/types@7.26.0)
-      hono: 4.6.20
+      hono: 4.7.0
       isomorphic-fetch: 3.0.0(encoding@0.1.13)
       nanoid: 5.0.9
       ohash: 1.1.4
@@ -32578,7 +32578,7 @@ snapshots:
     dependencies:
       react-is: 16.13.1
 
-  hono@4.6.20: {}
+  hono@4.7.0: {}
 
   hookable@5.5.3: {}
 
