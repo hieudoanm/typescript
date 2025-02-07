@@ -10,24 +10,26 @@
   "scripts": {
     "lint": "eslint --fix .",
     "format": "prisma format && prettier --cache --write .",
+    "prebuild": "prisma generate",
     "build": "rimraf dist && tsc",
     "prestart": "prisma generate",
     "start": "node .",
     "predev": "prisma generate",
     "dev": "nodemon"
   },
+  "dependencies": {
+    "@prisma/client": "6.3.1"
+  },
   "devDependencies": {
     "@eslint/js": "9.19.0",
     "@types/node": "22.13.1",
     "eslint": "9.19.0",
     "globals": "15.14.0",
+    "nodemon": "3.1.9",
     "prettier": "3.4.2",
     "prisma": "6.3.1",
     "ts-node": "10.9.2",
     "typescript": "5.7.3",
     "typescript-eslint": "8.23.0"
-  },
-  "dependencies": {
-    "@prisma/client": "6.3.1"
   }
 }
