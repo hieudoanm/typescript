@@ -1,5 +1,5 @@
 packages:
   - "packages/**"
   - "templates/**"
+  - "!templates/frontend/documentation/react/gatsby.js"
   - "!templates/frontend/web/angular"
-  - "!templates/frontend/web/react/gatsby.js"
