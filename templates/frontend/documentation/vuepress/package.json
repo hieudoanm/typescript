@@ -11,10 +11,10 @@
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@eslint/js": "9.19.0",
+    "@eslint/js": "9.20.0",
     "@vuepress/bundler-vite": "2.0.0-rc.7",
     "@vuepress/theme-default": "2.0.0-rc.74",
-    "eslint": "9.19.0",
+    "eslint": "9.20.0",
     "eslint-plugin-vue": "9.32.0",
     "globals": "15.14.0",
     "prettier": "3.4.2",
