@@ -31,7 +31,7 @@
     "vinxi": "0.5.1"
   },
   "devDependencies": {
-    "@eslint/js": "9.19.0",
+    "@eslint/js": "9.20.0",
     "@solidjs/testing-library": "0.8.10",
     "@tailwindcss/vite": "4.0.4",
     "@testing-library/jest-dom": "6.6.3",
@@ -39,7 +39,7 @@
     "@types/node": "22.13.1",
     "autoprefixer": "10.4.20",
     "daisyui": "4.12.23",
-    "eslint": "9.19.0",
+    "eslint": "9.20.0",
     "globals": "15.14.0",
     "jsdom": "26.0.0",
     "postcss": "8.5.1",
