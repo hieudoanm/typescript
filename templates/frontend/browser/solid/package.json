@@ -42,7 +42,7 @@
     "eslint": "9.20.0",
     "globals": "15.14.0",
     "jsdom": "26.0.0",
-    "postcss": "8.5.1",
+    "postcss": "8.5.2",
     "prettier": "3.5.0",
     "prettier-plugin-tailwindcss": "0.6.11",
     "prisma": "6.3.1",
