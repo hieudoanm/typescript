@@ -37,5 +37,11 @@
     "serve-static": "1.16.2",
     "tar": "7.4.3",
     "webpack-dev-middleware": "7.4.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "cypress",
+      "workerd"
+    ]
   }
 }
