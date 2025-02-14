@@ -63,7 +63,7 @@
     "tsconfig-paths": "4.2.0",
     "typescript": "5.7.3",
     "typescript-eslint": "8.24.0",
-    "webpack": "5.97.1",
+    "webpack": "5.98.0",
     "yaml": "2.7.0"
   }
 }
