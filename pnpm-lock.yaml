@@ -11,7 +11,7 @@ overrides:
   cross-spawn: 7.0.6
   debug: 4.4.0
   express: 4.21.2
-  nanoid: 5.0.9
+  nanoid: 5.1.0
   postcss: 8.5.2
   semver: 7.7.1
   send: 1.1.0
@@ -14701,8 +14701,8 @@ packages:
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
-  nanoid@5.0.9:
-    resolution: {integrity: sha512-Aooyr6MXU6HpvvWXKoVoXwKMs/KyVakWwg7xQfv5/S/RIgJMy0Ifa45H9qqYy7pTCszrHzP21Uk4PZq2HpEM8Q==}
+  nanoid@5.1.0:
+    resolution: {integrity: sha512-zDAl/llz8Ue/EblwSYwdxGBYfj46IM1dhjVi8dyp9LQffoIGxJEAHj2oeZ4uNcgycSRcQ83CnfcZqEJzVDLcDw==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -25734,7 +25734,7 @@ snapshots:
       cli-high: 0.4.3
       diff: 5.2.0
       effect: 3.12.10
-      nanoid: 5.0.9
+      nanoid: 5.1.0
       recast: 0.23.9
       xycolors: 0.1.2
 
@@ -25753,7 +25753,7 @@ snapshots:
       faster-babel-types: 0.1.0(@babel/types@7.26.0)
       hono: 4.7.1
       isomorphic-fetch: 3.0.0(encoding@0.1.13)
-      nanoid: 5.0.9
+      nanoid: 5.1.0
       ohash: 1.1.4
       pako: 2.1.0
       pathe: 1.1.2
@@ -27134,7 +27134,7 @@ snapshots:
     dependencies:
       '@react-navigation/routers': 7.1.2
       escape-string-regexp: 4.0.0
-      nanoid: 5.0.9
+      nanoid: 5.1.0
       query-string: 7.1.3
       react: 19.0.0
       react-is: 18.3.1
@@ -27166,14 +27166,14 @@ snapshots:
       '@react-navigation/core': 7.3.1(react@19.0.0)
       escape-string-regexp: 4.0.0
       fast-deep-equal: 3.1.3
-      nanoid: 5.0.9
+      nanoid: 5.1.0
       react: 19.0.0
       react-native: 0.77.1(@babel/core@7.26.9)(@babel/preset-env@7.26.7(@babel/core@7.26.9))(@types/react@19.0.8)(react@19.0.0)
       use-latest-callback: 0.2.3(react@19.0.0)
 
   '@react-navigation/routers@7.1.2':
     dependencies:
-      nanoid: 5.0.9
+      nanoid: 5.1.0
 
   '@redocly/ajv@8.11.2':
     dependencies:
@@ -37695,7 +37695,7 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nanoid@5.0.9: {}
+  nanoid@5.1.0: {}
 
   nativewind@4.1.23(react-native-reanimated@3.16.7(@babel/core@7.26.9)(react-native@0.77.1(@babel/core@7.26.9)(@babel/preset-env@7.26.7(@babel/core@7.26.9))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native-safe-area-context@5.2.0(react-native@0.77.1(@babel/core@7.26.9)(@babel/preset-env@7.26.7(@babel/core@7.26.9))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0))(react-native@0.77.1(@babel/core@7.26.9)(@babel/preset-env@7.26.7(@babel/core@7.26.9))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.6):
     dependencies:
@@ -39490,7 +39490,7 @@ snapshots:
 
   postcss@8.5.2:
     dependencies:
-      nanoid: 5.0.9
+      nanoid: 5.1.0
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
