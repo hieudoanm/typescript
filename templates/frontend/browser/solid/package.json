@@ -8,7 +8,7 @@
   "license": "GPL-3.0",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.3.0",
+  "packageManager": "pnpm@10.4.0",
   "engines": {
     "npm": "11.1.0"
   },
