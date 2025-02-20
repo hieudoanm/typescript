@@ -29,7 +29,7 @@
     "@nestjs/config": "4.0.0",
     "@nestjs/core": "11.0.10",
     "@nestjs/platform-express": "11.0.10",
-    "@nestjs/swagger": "11.0.3",
+    "@nestjs/swagger": "11.0.4",
     "@nestjs/throttler": "6.4.0",
     "axios": "1.7.9",
     "cache-manager": "6.4.0",
