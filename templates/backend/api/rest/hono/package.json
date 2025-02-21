@@ -19,12 +19,12 @@
     "test": "jest || true"
   },
   "dependencies": {
-    "@prisma/client": "6.4.0",
+    "@prisma/client": "6.4.1",
     "hono": "4.7.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250214.0",
-    "@dotenvx/dotenvx": "1.36.0",
+    "@dotenvx/dotenvx": "1.37.0",
     "@eslint/js": "9.20.0",
     "@prisma/extension-accelerate": "1.2.2",
     "@types/jest": "29.5.14",
@@ -34,7 +34,7 @@
     "jest": "29.7.0",
     "kill-port": "2.0.1",
     "prettier": "3.5.1",
-    "prisma": "6.4.0",
+    "prisma": "6.4.1",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
     "typescript": "5.7.3",
