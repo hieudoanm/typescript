@@ -30,7 +30,7 @@
     "react-stickynode": "5.0.2"
   },
   "devDependencies": {
-    "@eslint/js": "9.20.0",
+    "@eslint/js": "9.21.0",
     "@tailwindcss/postcss": "4.0.7",
     "@testing-library/dom": "10.4.0",
     "@testing-library/react": "16.2.0",
@@ -42,7 +42,7 @@
     "@types/react-stickynode": "4.0.3",
     "autoprefixer": "10.4.20",
     "daisyui": "4.12.23",
-    "eslint": "9.20.1",
+    "eslint": "9.21.0",
     "eslint-plugin-react": "7.37.4",
     "gatsby-plugin-postcss": "6.14.0",
     "gatsby-plugin-sass": "6.14.0",
