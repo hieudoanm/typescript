@@ -48,7 +48,7 @@
     "@tailwindcss/postcss": "4.0.7",
     "@tauri-apps/cli": "2.2.7",
     "@types/jest": "29.5.14",
-    "@types/node": "22.13.4",
+    "@types/node": "22.13.5",
     "@types/react": "19.0.10",
     "autoprefixer": "10.4.20",
     "eslint": "9.21.0",
