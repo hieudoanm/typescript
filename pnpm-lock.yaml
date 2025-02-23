@@ -1183,8 +1183,8 @@ importers:
         version: 3.24.2
     devDependencies:
       '@eslint/compat':
-        specifier: 1.2.6
-        version: 1.2.6(eslint@9.21.0(jiti@2.4.2))
+        specifier: 1.2.7
+        version: 1.2.7(eslint@9.21.0(jiti@2.4.2))
       '@eslint/eslintrc':
         specifier: 3.3.0
         version: 3.3.0
@@ -4601,8 +4601,8 @@ packages:
     resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/compat@1.2.6':
-    resolution: {integrity: sha512-k7HNCqApoDHM6XzT30zGoETj+D+uUcZUb+IVAJmar3u6bvHf7hhHJcWx09QHj4/a2qrKZMWU0E16tvkiAdv06Q==}
+  '@eslint/compat@1.2.7':
+    resolution: {integrity: sha512-xvv7hJE32yhegJ8xNAnb62ggiAwTYHBpUCWhRxEj/ksvgDJuSXfoDkBcRYaYNFiJ+jH0IE3K16hd+xXzhBgNbg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^9.10.0
@@ -4636,7 +4636,7 @@ packages:
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
-    engines: {node: '>=0.10.0'}
+    engines: {'0': node >=0.10.0}
 
   '@expo/cli@0.22.18':
     resolution: {integrity: sha512-TWGKHWTYU9xE7YETPk2zQzLPl+bldpzZCa0Cqg0QeENpu03ZEnMxUqrgHwrbWGTf7ONTYC1tODBkFCFw/qgPGA==}
@@ -20313,7 +20313,7 @@ snapshots:
       resolve-url-loader: 5.0.0
       rxjs: 7.8.1
       sass: 1.83.1
-      sass-loader: 16.0.4(sass@1.83.1)(webpack@5.97.1)
+      sass-loader: 16.0.4(sass@1.83.1)(webpack@5.97.1(esbuild@0.24.2))
       semver: 7.7.1
       source-map-loader: 5.0.0(webpack@5.97.1(esbuild@0.24.2))
       source-map-support: 0.5.21
@@ -24210,7 +24210,7 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.1': {}
 
-  '@eslint/compat@1.2.6(eslint@9.21.0(jiti@2.4.2))':
+  '@eslint/compat@1.2.7(eslint@9.21.0(jiti@2.4.2))':
     optionalDependencies:
       eslint: 9.21.0(jiti@2.4.2)
 
@@ -32911,7 +32911,7 @@ snapshots:
 
   eslint-plugin-github@5.1.8(@types/eslint@9.6.1)(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3):
     dependencies:
-      '@eslint/compat': 1.2.6(eslint@9.21.0(jiti@2.4.2))
+      '@eslint/compat': 1.2.7(eslint@9.21.0(jiti@2.4.2))
       '@eslint/eslintrc': 3.3.0
       '@eslint/js': 9.21.0
       '@github/browserslist-config': 1.0.0
@@ -40962,7 +40962,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@16.0.4(sass@1.83.1)(webpack@5.97.1):
+  sass-loader@16.0.4(sass@1.83.1)(webpack@5.97.1(esbuild@0.24.2)):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
