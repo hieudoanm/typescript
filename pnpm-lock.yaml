@@ -1125,8 +1125,8 @@ importers:
         specifier: 6.4.1
         version: 6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3)
       '@stripe/stripe-js':
-        specifier: 5.6.0
-        version: 5.6.0
+        specifier: 5.7.0
+        version: 5.7.0
       '@tanstack/react-query':
         specifier: 5.66.9
         version: 5.66.9(react@19.0.0)
@@ -6991,8 +6991,8 @@ packages:
       '@solidjs/router':
         optional: true
 
-  '@stripe/stripe-js@5.6.0':
-    resolution: {integrity: sha512-w8CEY73X/7tw2KKlL3iOk679V9bWseE4GzNz3zlaYxcTjmcmWOathRb0emgo/QQ3eoNzmq68+2Y2gxluAv3xGw==}
+  '@stripe/stripe-js@5.7.0':
+    resolution: {integrity: sha512-9pCOK3AH75hDKPRyJm9PO5TA3aHZ/PVlIBOZwpi6mABxwr6mMIBjqgZEUThIE5zFEkOmaKXwxBgTsVKC29x+mQ==}
     engines: {node: '>=12.16'}
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
@@ -27532,7 +27532,7 @@ snapshots:
     optionalDependencies:
       '@solidjs/router': 0.15.3(solid-js@1.9.5)
 
-  '@stripe/stripe-js@5.6.0': {}
+  '@stripe/stripe-js@5.7.0': {}
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     dependencies:
