@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  axios: 1.7.9
+  axios: 1.8.0
   body-parser: 1.20.3
   cookie: 1.0.2
   cross-spawn: 7.0.6
@@ -39,8 +39,8 @@ importers:
   packages/api:
     dependencies:
       axios:
-        specifier: 1.7.9
-        version: 1.7.9
+        specifier: 1.8.0
+        version: 1.8.0
     devDependencies:
       '@eslint/js':
         specifier: 9.21.0
@@ -379,7 +379,7 @@ importers:
         version: 13.0.3(@apollo/server@4.11.3(encoding@0.1.13)(graphql@16.10.0))(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.10)(@nestjs/graphql@13.0.3(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.10)(graphql@16.10.0)(reflect-metadata@0.2.2))(graphql@16.10.0)
       '@nestjs/axios':
         specifier: 4.0.0
-        version: 4.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.7.9)(rxjs@7.8.2)
+        version: 4.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.0)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: 11.0.10
         version: 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -396,8 +396,8 @@ importers:
         specifier: 11.0.5
         version: 11.0.5(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.10)(reflect-metadata@0.2.2)
       axios:
-        specifier: 1.7.9
-        version: 1.7.9
+        specifier: 1.8.0
+        version: 1.8.0
       graphql:
         specifier: 16.10.0
         version: 16.10.0
@@ -653,7 +653,7 @@ importers:
     dependencies:
       '@nestjs/axios':
         specifier: 4.0.0
-        version: 4.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.7.9)(rxjs@7.8.2)
+        version: 4.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.0)(rxjs@7.8.2)
       '@nestjs/cache-manager':
         specifier: 3.0.0
         version: 3.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.10)(cache-manager@6.4.0)(rxjs@7.8.2)
@@ -676,8 +676,8 @@ importers:
         specifier: 6.4.0
         version: 6.4.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.10)(reflect-metadata@0.2.2)
       axios:
-        specifier: 1.7.9
-        version: 1.7.9
+        specifier: 1.8.0
+        version: 1.8.0
       cache-manager:
         specifier: 6.4.0
         version: 6.4.0
@@ -1149,8 +1149,8 @@ importers:
         specifier: 11.0.0-rc.808
         version: 11.0.0-rc.808(typescript@5.7.3)
       axios:
-        specifier: 1.7.9
-        version: 1.7.9
+        specifier: 1.8.0
+        version: 1.8.0
       million:
         specifier: 3.1.11
         version: 3.1.11(rollup@2.79.2)
@@ -5590,7 +5590,7 @@ packages:
     resolution: {integrity: sha512-1cB+Jyltu/uUPNQrpUimRHEQHrnQrpLzVj6dU3dgn6iDDDdahr10TgHFGTmw5VuJ9GzKZsCLDL78VSwJAs/9JQ==}
     peerDependencies:
       '@nestjs/common': ^10.0.0 || ^11.0.0
-      axios: 1.7.9
+      axios: 1.8.0
       rxjs: ^7.0.0
 
   '@nestjs/cache-manager@3.0.0':
@@ -8746,8 +8746,8 @@ packages:
     resolution: {integrity: sha512-RE3mdQ7P3FRSe7eqCWoeQ/Z9QXrtniSjp1wUjt5nRC3WIpz5rSCve6o3fsZ2aCpJtrZjSZgjwXAoTO5k4tEI0w==}
     engines: {node: '>=4'}
 
-  axios@1.7.9:
-    resolution: {integrity: sha512-LhLcE7Hbiryz8oMDdDptSrWowmB4Bl6RCt6sIJKpRB4XtVf0iEgewX3au/pJqm+Py1kCASkb/FFKjxQaLtxJvw==}
+  axios@1.8.0:
+    resolution: {integrity: sha512-AS3x1klSQ4VeoeAaOyITVjomjITxIRgpKVgAXhE8QFJiNiYliuU+cW0p7XpqvlwNKmiwE57aNEyhPtsfAxERqg==}
 
   axobject-query@4.1.0:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
@@ -25696,10 +25696,10 @@ snapshots:
       lodash.omit: 4.5.0
       tslib: 2.8.1
 
-  '@nestjs/axios@4.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.7.9)(rxjs@7.8.2)':
+  '@nestjs/axios@4.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.0)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      axios: 1.7.9
+      axios: 1.8.0
       rxjs: 7.8.2
 
   '@nestjs/cache-manager@3.0.0(@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.10)(cache-manager@6.4.0)(rxjs@7.8.2)':
@@ -29918,7 +29918,7 @@ snapshots:
 
   axe-core@4.10.2: {}
 
-  axios@1.7.9:
+  axios@1.8.0:
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
       form-data: 4.0.1
