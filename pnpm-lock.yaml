@@ -779,8 +779,8 @@ importers:
         specifier: 1.37.0
         version: 1.37.0
       drizzle-orm:
-        specifier: 0.39.3
-        version: 0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))
+        specifier: 0.40.0
+        version: 0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))
       pg:
         specifier: 8.13.3
         version: 8.13.3
@@ -1319,7 +1319,7 @@ importers:
         version: 0.15.3(solid-js@1.9.5)
       '@solidjs/start':
         specifier: 1.1.1
-        version: 1.1.1(@testing-library/jest-dom@6.6.3)(babel-plugin-macros@3.1.0)(solid-js@1.9.5)(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0))
+        version: 1.1.1(@testing-library/jest-dom@6.6.3)(babel-plugin-macros@3.1.0)(solid-js@1.9.5)(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0))
       '@trpc/server':
         specifier: 10.45.2
         version: 10.45.2
@@ -1328,7 +1328,7 @@ importers:
         version: 1.9.5
       vinxi:
         specifier: 0.5.3
-        version: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+        version: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
     devDependencies:
       '@eslint/js':
         specifier: 9.21.0
@@ -1461,10 +1461,10 @@ importers:
     dependencies:
       '@astrojs/starlight':
         specifier: 0.32.1
-        version: 0.32.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
+        version: 0.32.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
       astro:
         specifier: 5.3.1
-        version: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+        version: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
       sharp:
         specifier: 0.33.5
         version: 0.33.5
@@ -10413,8 +10413,8 @@ packages:
     resolution: {integrity: sha512-l6dMSE100u7sDaTbLczibrQZjA35jLsHNqIV+jmhNVO3O8jzM6kywMOmV9uOz9ZVSCMPQhAZEFjL/qDPVrqpUA==}
     hasBin: true
 
-  drizzle-orm@0.39.3:
-    resolution: {integrity: sha512-EZ8ZpYvDIvKU9C56JYLOmUskazhad+uXZCTCRN4OnRMsL+xAJ05dv1eCpAG5xzhsm1hqiuC5kAZUCS924u2DTw==}
+  drizzle-orm@0.40.0:
+    resolution: {integrity: sha512-7ptk/HQiMSrEZHnAsSlBESXWj52VwgMmyTEfoNmpNN2ZXpcz13LwHfXTIghsAEud7Z5UJhDOp8U07ujcqme7wg==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -10435,6 +10435,7 @@ packages:
       better-sqlite3: '>=7'
       bun-types: '*'
       expo-sqlite: '>=14.0.0'
+      gel: '>=2'
       knex: '*'
       kysely: '*'
       mysql2: '>=2'
@@ -10481,6 +10482,8 @@ packages:
       bun-types:
         optional: true
       expo-sqlite:
+        optional: true
+      gel:
         optional: true
       knex:
         optional: true
@@ -20632,12 +20635,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.0.8(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
+  '@astrojs/mdx@4.0.8(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.1.0
       '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
       acorn: 8.14.0
-      astro: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+      astro: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.4
@@ -20661,16 +20664,16 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/starlight@0.32.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
+  '@astrojs/starlight@0.32.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
     dependencies:
-      '@astrojs/mdx': 4.0.8(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
+      '@astrojs/mdx': 4.0.8(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
       '@astrojs/sitemap': 3.2.1
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
-      astro-expressive-code: 0.40.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
+      astro: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+      astro-expressive-code: 0.40.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.3
@@ -27467,11 +27470,11 @@ snapshots:
     dependencies:
       solid-js: 1.9.5
 
-  '@solidjs/start@1.1.1(@testing-library/jest-dom@6.6.3)(babel-plugin-macros@3.1.0)(solid-js@1.9.5)(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0))':
+  '@solidjs/start@1.1.1(@testing-library/jest-dom@6.6.3)(babel-plugin-macros@3.1.0)(solid-js@1.9.5)(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0))':
     dependencies:
       '@tanstack/server-functions-plugin': 1.103.1(babel-plugin-macros@3.1.0)
-      '@vinxi/plugin-directives': 0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
-      '@vinxi/server-components': 0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
+      '@vinxi/plugin-directives': 0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
+      '@vinxi/server-components': 0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
       defu: 6.1.4
       error-stack-parser: 2.1.4
       html-to-image: 1.11.11
@@ -27482,7 +27485,7 @@ snapshots:
       source-map-js: 1.2.1
       terracotta: 1.0.6(solid-js@1.9.5)
       tinyglobby: 0.2.10
-      vinxi: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+      vinxi: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
       vite-plugin-solid: 2.11.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
@@ -28727,7 +28730,7 @@ snapshots:
       untun: 0.1.3
       uqr: 0.1.2
 
-  '@vinxi/plugin-directives@0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
+  '@vinxi/plugin-directives@0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
     dependencies:
       '@babel/parser': 7.26.8
       acorn: 8.14.0
@@ -28738,18 +28741,18 @@ snapshots:
       magicast: 0.2.11
       recast: 0.23.9
       tslib: 2.8.1
-      vinxi: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+      vinxi: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
 
-  '@vinxi/server-components@0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
+  '@vinxi/server-components@0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
     dependencies:
-      '@vinxi/plugin-directives': 0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
+      '@vinxi/plugin-directives': 0.5.0(vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
       acorn: 8.14.0
       acorn-loose: 8.4.0
       acorn-typescript: 1.4.13(acorn@8.14.0)
       astring: 1.9.0
       magicast: 0.2.11
       recast: 0.23.9
-      vinxi: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+      vinxi: 0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
 
   '@vitejs/plugin-basic-ssl@1.2.0(vite@6.0.11(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.83.1)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))':
     dependencies:
@@ -29770,12 +29773,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.40.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)):
+  astro-expressive-code@0.40.1(astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)):
     dependencies:
-      astro: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
+      astro: 5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
       rehype-expressive-code: 0.40.1
 
-  astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0):
+  astro@5.3.1(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(rollup@4.34.0)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.5.1
@@ -29825,7 +29828,7 @@ snapshots:
       tsconfck: 3.1.4(typescript@5.7.3)
       ultrahtml: 1.5.3
       unist-util-visit: 5.0.0
-      unstorage: 1.14.4(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)
+      unstorage: 1.14.4(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)
       vfile: 6.0.3
       vite: 6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0)
       vitefu: 1.0.5(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0))
@@ -31624,9 +31627,9 @@ snapshots:
 
   dayjs@1.11.13: {}
 
-  db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))):
+  db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))):
     optionalDependencies:
-      drizzle-orm: 0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))
+      drizzle-orm: 0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))
 
   debounce@1.2.1: {}
 
@@ -31970,12 +31973,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)):
+  drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)):
     optionalDependencies:
       '@cloudflare/workers-types': 4.20250214.0
       '@opentelemetry/api': 1.4.1
       '@prisma/client': 6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3)
       '@types/pg': 8.11.11
+      gel: 2.0.0
       pg: 8.13.3
       prisma: 6.4.1(typescript@5.7.3)
 
@@ -37616,7 +37620,7 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nitropack@2.10.4(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(typescript@5.7.3):
+  nitropack@2.10.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(typescript@5.7.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@netlify/functions': 2.8.2
@@ -37640,7 +37644,7 @@ snapshots:
       cookie-es: 1.2.2
       croner: 9.0.0
       crossws: 0.3.3
-      db0: 0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))
+      db0: 0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))
       defu: 6.1.4
       destr: 2.0.3
       dot-prop: 9.0.0
@@ -37683,7 +37687,7 @@ snapshots:
       unctx: 2.4.1
       unenv: 1.10.0
       unimport: 3.14.6(rollup@4.34.0)
-      unstorage: 1.14.4(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)
+      unstorage: 1.14.4(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)
       untyped: 1.5.2
       unwasm: 0.3.9
     transitivePeerDependencies:
@@ -42523,7 +42527,7 @@ snapshots:
       acorn: 8.14.0
       webpack-virtual-modules: 0.6.2
 
-  unstorage@1.14.4(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2):
+  unstorage@1.14.4(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2):
     dependencies:
       anymatch: 3.1.3
       chokidar: 3.6.0
@@ -42534,7 +42538,7 @@ snapshots:
       ofetch: 1.4.1
       ufo: 1.5.4
     optionalDependencies:
-      db0: 0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))
+      db0: 0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))
       ioredis: 5.4.2
 
   untildify@4.0.0: {}
@@ -42776,7 +42780,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0):
+  vinxi@0.5.3(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0):
     dependencies:
       '@babel/core': 7.26.8
       '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.26.8)
@@ -42798,7 +42802,7 @@ snapshots:
       hookable: 5.5.3
       http-proxy: 1.18.1(debug@4.4.0)
       micromatch: 4.0.8
-      nitropack: 2.10.4(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(typescript@5.7.3)
+      nitropack: 2.10.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3)))(encoding@0.1.13)(typescript@5.7.3)
       node-fetch-native: 1.6.6
       path-to-regexp: 6.3.0
       pathe: 1.1.2
@@ -42809,7 +42813,7 @@ snapshots:
       ufo: 1.5.4
       unctx: 2.4.1
       unenv: 1.10.0
-      unstorage: 1.14.4(db0@0.2.3(drizzle-orm@0.39.3(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)
+      unstorage: 1.14.4(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250214.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)
       vite: 6.1.1(@types/node@22.13.5)(jiti@2.4.2)(less@4.2.1)(lightningcss@1.29.1)(sass@1.84.0)(terser@5.38.1)(tsx@4.19.3)(yaml@2.7.0)
       zod: 3.24.2
     transitivePeerDependencies:
