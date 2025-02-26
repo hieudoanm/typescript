@@ -31,7 +31,7 @@
     "@nestjs/platform-express": "11.0.10",
     "@nestjs/swagger": "11.0.5",
     "@nestjs/throttler": "6.4.0",
-    "axios": "1.7.9",
+    "axios": "1.8.0",
     "cache-manager": "6.4.0",
     "compression": "1.8.0",
     "cookie-parser": "1.4.7",
