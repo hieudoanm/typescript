@@ -1460,8 +1460,8 @@ importers:
   templates/frontend/documentation/astro:
     dependencies:
       '@astrojs/starlight':
-        specifier: 0.32.1
-        version: 0.32.1(astro@5.4.0(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250224.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.8)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
+        specifier: 0.32.2
+        version: 0.32.2(astro@5.4.0(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250224.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.8)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
       astro:
         specifier: 5.4.0
         version: 5.4.0(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250224.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.8)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0)
@@ -2191,8 +2191,8 @@ packages:
   '@astrojs/sitemap@3.2.1':
     resolution: {integrity: sha512-uxMfO8f7pALq0ADL6Lk68UV6dNYjJ2xGUzyjjVj60JLBs5a6smtlkBYv3tQ0DzoqwS7c9n4FUx5lgv0yPo/fgA==}
 
-  '@astrojs/starlight@0.32.1':
-    resolution: {integrity: sha512-+GPtDzi7wkbooHnMZqGjCoV0qwkYZAFSg3FhRm8jSXXSkLJcw4rgT6vnee/LuJhbVq9kvHVcevtgK8tTxy3Xeg==}
+  '@astrojs/starlight@0.32.2':
+    resolution: {integrity: sha512-FLz8Y8R+GsD0jD/G64bYijwwVsAq99Ugk2bJYRmH2k1reYMh83GRma2IaKGgSI2fLNEu7tdyG4cpkwrwP3W02A==}
     peerDependencies:
       astro: ^5.1.5
 
@@ -20754,7 +20754,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/starlight@0.32.1(astro@5.4.0(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250224.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.8)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
+  '@astrojs/starlight@0.32.2(astro@5.4.0(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250224.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.8)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))':
     dependencies:
       '@astrojs/mdx': 4.0.8(astro@5.4.0(@types/node@22.13.5)(db0@0.2.3(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250224.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.7.3))))(ioredis@5.4.2)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.8)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.7.3)(yaml@2.7.0))
       '@astrojs/sitemap': 3.2.1
@@ -34358,7 +34358,7 @@ snapshots:
 
   i18next@23.16.8:
     dependencies:
-      '@babel/runtime': 7.26.7
+      '@babel/runtime': 7.26.9
 
   iconv-lite@0.4.24:
     dependencies:
