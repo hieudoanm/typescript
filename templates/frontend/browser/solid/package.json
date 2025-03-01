@@ -36,7 +36,7 @@
     "@tailwindcss/vite": "4.0.9",
     "@testing-library/jest-dom": "6.6.3",
     "@trpc/client": "10.45.2",
-    "@types/node": "22.13.7",
+    "@types/node": "22.13.8",
     "autoprefixer": "10.4.20",
     "daisyui": "5.0.0",
     "eslint": "9.21.0",
