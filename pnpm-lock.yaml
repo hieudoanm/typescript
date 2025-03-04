@@ -1461,10 +1461,10 @@ importers:
     dependencies:
       '@astrojs/starlight':
         specifier: 0.32.2
-        version: 0.32.2(astro@5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
+        version: 0.32.2(astro@5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
       astro:
-        specifier: 5.4.1
-        version: 5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
+        specifier: 5.4.2
+        version: 5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
       sharp:
         specifier: 0.33.5
         version: 0.33.5
@@ -8587,8 +8587,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro@5.4.1:
-    resolution: {integrity: sha512-z9BiBz8pV7pZVn1evZv/9bJil3A9UZNyEjDFH3IjD87ioz95HHGLgbjRbbqF1EwSy8JOLKlMNyuQPqjrX8xqWw==}
+  astro@5.4.2:
+    resolution: {integrity: sha512-9Z3fAniIRJaK/o43OroZA1wHUIU+qHiOR9ovlVT/2XQaN25QRXScIsKWlFp0G/zrx5OuuoJ+QnaoHHW061u26A==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -20004,7 +20004,7 @@ snapshots:
       resolve-url-loader: 5.0.0
       rxjs: 7.8.1
       sass: 1.85.0
-      sass-loader: 16.0.5(sass@1.85.0)(webpack@5.98.0)
+      sass-loader: 16.0.5(sass@1.85.0)(webpack@5.98.0(esbuild@0.25.0))
       semver: 7.7.1
       source-map-loader: 5.0.0(webpack@5.98.0(esbuild@0.25.0))
       source-map-support: 0.5.21
@@ -20486,12 +20486,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.1.0(astro@5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))':
+  '@astrojs/mdx@4.1.0(astro@5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.2.0
       '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
       acorn: 8.14.0
-      astro: 5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
+      astro: 5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -20515,16 +20515,16 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/starlight@0.32.2(astro@5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))':
+  '@astrojs/starlight@0.32.2(astro@5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))':
     dependencies:
-      '@astrojs/mdx': 4.1.0(astro@5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
+      '@astrojs/mdx': 4.1.0(astro@5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
       '@astrojs/sitemap': 3.2.1
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
-      astro-expressive-code: 0.40.2(astro@5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
+      astro: 5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
+      astro-expressive-code: 0.40.2(astro@5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
@@ -28924,12 +28924,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.40.2(astro@5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)):
+  astro-expressive-code@0.40.2(astro@5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)):
     dependencies:
-      astro: 5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
+      astro: 5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
       rehype-expressive-code: 0.40.2
 
-  astro@5.4.1(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0):
+  astro@5.4.2(@types/node@22.13.9)(db0@0.2.4(drizzle-orm@0.40.0(@cloudflare/workers-types@4.20250303.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.13.3)(prisma@6.4.1(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0):
     dependencies:
       '@astrojs/compiler': 2.10.4
       '@astrojs/internal-helpers': 0.6.0
@@ -31639,8 +31639,8 @@ snapshots:
       '@typescript-eslint/parser': 8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
       eslint: 9.21.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.8.3(eslint-plugin-import@2.31.0)(eslint@9.21.0(jiti@2.4.2))
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3)(eslint@9.21.0(jiti@2.4.2))
+      eslint-import-resolver-typescript: 3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-react: 7.37.4(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.2.0(eslint@9.21.0(jiti@2.4.2))
@@ -31663,7 +31663,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0)(eslint@9.21.0(jiti@2.4.2)):
+  eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.0(supports-color@9.4.0)
@@ -31674,18 +31674,18 @@ snapshots:
       stable-hash: 0.0.4
       tinyglobby: 0.2.12
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3)(eslint@9.21.0(jiti@2.4.2))
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.3)(eslint@9.21.0(jiti@2.4.2)):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)):
     dependencies:
       debug: 4.4.0(supports-color@9.4.0)
     optionalDependencies:
       '@typescript-eslint/parser': 8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
       eslint: 9.21.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.8.3(eslint-plugin-import@2.31.0)(eslint@9.21.0(jiti@2.4.2))
+      eslint-import-resolver-typescript: 3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))
     transitivePeerDependencies:
       - supports-color
 
@@ -31723,7 +31723,7 @@ snapshots:
       eslint-plugin-eslint-comments: 3.2.0(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-filenames: 1.3.2(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-i18n-text: 1.0.1(eslint@9.21.0(jiti@2.4.2))
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3)(eslint@9.21.0(jiti@2.4.2))
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-no-only-tests: 3.3.0
       eslint-plugin-prettier: 5.2.3(@types/eslint@9.6.1)(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.3)
@@ -31744,7 +31744,7 @@ snapshots:
     dependencies:
       eslint: 9.21.0(jiti@2.4.2)
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3)(eslint@9.21.0(jiti@2.4.2)):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -31755,7 +31755,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.21.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.3)(eslint@9.21.0(jiti@2.4.2))
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -35098,7 +35098,7 @@ snapshots:
       crossws: 0.3.4
       defu: 6.1.4
       get-port-please: 3.1.2
-      h3: 1.13.0
+      h3: 1.15.1
       http-shutdown: 1.2.2
       jiti: 2.4.2
       mlly: 1.7.4
@@ -39699,12 +39699,20 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
+  sass-loader@16.0.5(sass@1.85.0)(webpack@5.98.0(esbuild@0.25.0)):
+    dependencies:
+      neo-async: 2.6.2
+    optionalDependencies:
+      sass: 1.85.0
+      webpack: 5.98.0(esbuild@0.25.0)
+
   sass-loader@16.0.5(sass@1.85.0)(webpack@5.98.0):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
       sass: 1.85.0
       webpack: 5.98.0(webpack-cli@6.0.1)
+    optional: true
 
   sass@1.85.0:
     dependencies:
