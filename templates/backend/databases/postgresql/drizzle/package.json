@@ -15,7 +15,7 @@
     "dev": "nodemon"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "1.38.3",
+    "@dotenvx/dotenvx": "1.38.4",
     "drizzle-orm": "0.40.0",
     "pg": "8.13.3"
   },
