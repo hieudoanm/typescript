@@ -2,7 +2,7 @@ terraform {
   required_providers {
     vercel = {
       source = "vercel/vercel"
-      version = "2.12.0"
+      version = "2.12.1"
     }
   }
 }
