@@ -1125,8 +1125,8 @@ importers:
         specifier: 6.4.1
         version: 6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2)
       '@stripe/stripe-js':
-        specifier: 5.9.2
-        version: 5.9.2
+        specifier: 5.10.0
+        version: 5.10.0
       '@tanstack/react-query':
         specifier: 5.67.1
         version: 5.67.1(react@19.0.0)
@@ -6911,8 +6911,8 @@ packages:
   '@standard-schema/spec@1.0.0':
     resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
 
-  '@stripe/stripe-js@5.9.2':
-    resolution: {integrity: sha512-g8qabMEu8zoXujyebWHkeQrM6k9Dm8h22FUaMNIFFTv4GtrWBhLYphhsra/PBEcM3p+mRr/srEIj9g9RV5d0xg==}
+  '@stripe/stripe-js@5.10.0':
+    resolution: {integrity: sha512-PTigkxMdMUP6B5ISS7jMqJAKhgrhZwjprDqR1eATtFfh0OpKVNp110xiH+goeVdrJ29/4LeZJR4FaHHWstsu0A==}
     engines: {node: '>=12.16'}
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
@@ -26688,7 +26688,7 @@ snapshots:
 
   '@standard-schema/spec@1.0.0': {}
 
-  '@stripe/stripe-js@5.9.2': {}
+  '@stripe/stripe-js@5.10.0': {}
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     dependencies:
