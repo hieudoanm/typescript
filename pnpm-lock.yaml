@@ -1268,7 +1268,7 @@ importers:
         version: 3.5.3
       prettier-plugin-tailwindcss:
         specifier: 0.6.11
-        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.5))(prettier@3.5.3)
+        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.6))(prettier@3.5.3)
       prisma:
         specifier: 6.4.1
         version: 6.4.1(typescript@5.8.2)
@@ -1371,7 +1371,7 @@ importers:
         version: 3.5.3
       prettier-plugin-tailwindcss:
         specifier: 0.6.11
-        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.5))(prettier@3.5.3)
+        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.6))(prettier@3.5.3)
       prisma:
         specifier: 6.4.1
         version: 6.4.1(typescript@5.8.2)
@@ -1407,13 +1407,13 @@ importers:
         version: 1.51.0
       '@sveltejs/adapter-auto':
         specifier: 4.0.0
-        version: 4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))
+        version: 4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))
       '@sveltejs/kit':
         specifier: 2.19.0
-        version: 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
+        version: 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
       '@sveltejs/vite-plugin-svelte':
         specifier: 5.0.3
-        version: 5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
+        version: 5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
       eslint:
         specifier: 9.22.0
         version: 9.22.0(jiti@2.4.2)
@@ -1422,7 +1422,7 @@ importers:
         version: 10.0.2(eslint@9.22.0(jiti@2.4.2))
       eslint-plugin-svelte:
         specifier: 3.0.3
-        version: 3.0.3(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.5)(ts-node@10.9.2(@types/node@22.13.9)(typescript@5.8.2))
+        version: 3.0.3(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.6)(ts-node@10.9.2(@types/node@22.13.9)(typescript@5.8.2))
       globals:
         specifier: 16.0.0
         version: 16.0.0
@@ -1431,16 +1431,16 @@ importers:
         version: 3.5.3
       prettier-plugin-svelte:
         specifier: 3.3.3
-        version: 3.3.3(prettier@3.5.3)(svelte@5.22.5)
+        version: 3.3.3(prettier@3.5.3)(svelte@5.22.6)
       prettier-plugin-tailwindcss:
         specifier: 0.6.11
-        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.5))(prettier@3.5.3)
+        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.6))(prettier@3.5.3)
       svelte:
-        specifier: 5.22.5
-        version: 5.22.5
+        specifier: 5.22.6
+        version: 5.22.6
       svelte-check:
         specifier: 4.1.5
-        version: 4.1.5(picomatch@4.0.2)(svelte@5.22.5)(typescript@5.8.2)
+        version: 4.1.5(picomatch@4.0.2)(svelte@5.22.6)(typescript@5.8.2)
       tslib:
         specifier: 2.8.1
         version: 2.8.1
@@ -1680,7 +1680,7 @@ importers:
         version: 3.5.3
       prettier-plugin-tailwindcss:
         specifier: 0.6.11
-        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.5))(prettier@3.5.3)
+        version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.6))(prettier@3.5.3)
       tailwindcss:
         specifier: 4.0.12
         version: 4.0.12
@@ -4449,7 +4449,7 @@ packages:
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
-    engines: {node: '>=0.10.0'}
+    engines: {'0': node >=0.10.0}
 
   '@expo/cli@0.22.18':
     resolution: {integrity: sha512-TWGKHWTYU9xE7YETPk2zQzLPl+bldpzZCa0Cqg0QeENpu03ZEnMxUqrgHwrbWGTf7ONTYC1tODBkFCFw/qgPGA==}
@@ -17955,8 +17955,8 @@ packages:
       svelte:
         optional: true
 
-  svelte@5.22.5:
-    resolution: {integrity: sha512-+2BDWVa/rqr34oM+5HFUSmCCPdBBeNqFv2Xc/SSB8kV4iQhWWBNvU9/nd5Dz3PkAGl7Bm/AndS1vY4fe1MgTKA==}
+  svelte@5.22.6:
+    resolution: {integrity: sha512-dxHyh3USJyayafSt5I5QD7KuoCM5ZGdIOtLQiKHEro7tymdh0jMcNkiSBVHW+LOA2jEqZEHhyfwN6/pCjx0Fug==}
     engines: {node: '>=18'}
 
   svg-element-attributes@1.3.1:
@@ -20047,7 +20047,7 @@ snapshots:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.1902.1(chokidar@4.0.3)
-      '@angular-devkit/build-webpack': 0.1902.1(chokidar@4.0.3)(webpack-dev-server@5.2.0(webpack@5.98.0))(webpack@5.98.0(esbuild@0.25.0))
+      '@angular-devkit/build-webpack': 0.1902.1(chokidar@4.0.3)(webpack-dev-server@5.2.0(webpack@5.98.0))(webpack@5.98.0)
       '@angular-devkit/core': 19.2.1(chokidar@4.0.3)
       '@angular/build': 19.2.1(@angular/compiler-cli@19.2.1(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.8.2))(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/platform-server@19.2.1(@angular/common@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0))(@angular/platform-browser@19.2.1(@angular/animations@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/common@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0))))(@angular/ssr@19.2.1(d05b764d9e6b03f68a956ea590f58782))(@types/node@22.13.9)(chokidar@4.0.3)(jiti@2.4.2)(karma@6.4.4)(less@4.2.2)(lightningcss@1.29.1)(postcss@8.5.3)(tailwindcss@4.0.12)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
       '@angular/compiler-cli': 19.2.1(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.8.2)
@@ -20061,14 +20061,14 @@ snapshots:
       '@babel/preset-env': 7.26.9(@babel/core@7.26.9)
       '@babel/runtime': 7.26.9
       '@discoveryjs/json-ext': 0.6.3
-      '@ngtools/webpack': 19.2.1(@angular/compiler-cli@19.2.1(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.8.2))(typescript@5.8.2)(webpack@5.98.0(esbuild@0.25.0))
+      '@ngtools/webpack': 19.2.1(@angular/compiler-cli@19.2.1(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.8.2))(typescript@5.8.2)(webpack@5.98.0)
       '@vitejs/plugin-basic-ssl': 1.2.0(vite@6.2.0(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
       ansi-colors: 4.1.3
       autoprefixer: 10.4.20(postcss@8.5.3)
-      babel-loader: 9.2.1(@babel/core@7.26.9)(webpack@5.98.0(esbuild@0.25.0))
+      babel-loader: 9.2.1(@babel/core@7.26.9)(webpack@5.98.0)
       browserslist: 4.24.4
-      copy-webpack-plugin: 12.0.2(webpack@5.98.0(esbuild@0.25.0))
-      css-loader: 7.1.2(webpack@5.98.0(esbuild@0.25.0))
+      copy-webpack-plugin: 12.0.2(webpack@5.98.0)
+      css-loader: 7.1.2(webpack@5.98.0)
       esbuild-wasm: 0.25.0
       fast-glob: 3.3.3
       http-proxy-middleware: 3.0.3
@@ -20076,32 +20076,32 @@ snapshots:
       jsonc-parser: 3.3.1
       karma-source-map-support: 1.4.0
       less: 4.2.2
-      less-loader: 12.2.0(less@4.2.2)(webpack@5.98.0(esbuild@0.25.0))
-      license-webpack-plugin: 4.0.2(webpack@5.98.0(esbuild@0.25.0))
+      less-loader: 12.2.0(less@4.2.2)(webpack@5.98.0)
+      license-webpack-plugin: 4.0.2(webpack@5.98.0)
       loader-utils: 3.3.1
-      mini-css-extract-plugin: 2.9.2(webpack@5.98.0(esbuild@0.25.0))
+      mini-css-extract-plugin: 2.9.2(webpack@5.98.0)
       open: 10.1.0
       ora: 5.4.1
       picomatch: 4.0.2
       piscina: 4.8.0
       postcss: 8.5.3
-      postcss-loader: 8.1.1(postcss@8.5.3)(typescript@5.8.2)(webpack@5.98.0(esbuild@0.25.0))
+      postcss-loader: 8.1.1(postcss@8.5.3)(typescript@5.8.2)(webpack@5.98.0)
       resolve-url-loader: 5.0.0
       rxjs: 7.8.1
       sass: 1.85.0
-      sass-loader: 16.0.5(sass@1.85.0)(webpack@5.98.0(esbuild@0.25.0))
+      sass-loader: 16.0.5(sass@1.85.0)(webpack@5.98.0)
       semver: 7.7.1
-      source-map-loader: 5.0.0(webpack@5.98.0(esbuild@0.25.0))
+      source-map-loader: 5.0.0(webpack@5.98.0)
       source-map-support: 0.5.21
       terser: 5.39.0
       tree-kill: 1.2.2
       tslib: 2.8.1
       typescript: 5.8.2
       webpack: 5.98.0(esbuild@0.25.0)
-      webpack-dev-middleware: 7.4.2(webpack@5.98.0(esbuild@0.25.0))
+      webpack-dev-middleware: 7.4.2(webpack@5.98.0)
       webpack-dev-server: 5.2.0(webpack@5.98.0)
       webpack-merge: 6.0.1
-      webpack-subresource-integrity: 5.1.0(html-webpack-plugin@5.6.3(webpack@5.98.0))(webpack@5.98.0(esbuild@0.25.0))
+      webpack-subresource-integrity: 5.1.0(html-webpack-plugin@5.6.3(webpack@5.98.0))(webpack@5.98.0)
     optionalDependencies:
       '@angular/platform-server': 19.2.1(@angular/common@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0))(@angular/platform-browser@19.2.1(@angular/animations@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/common@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))
       '@angular/ssr': 19.2.1(d05b764d9e6b03f68a956ea590f58782)
@@ -20133,7 +20133,7 @@ snapshots:
       - webpack-cli
       - yaml
 
-  '@angular-devkit/build-webpack@0.1902.1(chokidar@4.0.3)(webpack-dev-server@5.2.0(webpack@5.98.0))(webpack@5.98.0(esbuild@0.25.0))':
+  '@angular-devkit/build-webpack@0.1902.1(chokidar@4.0.3)(webpack-dev-server@5.2.0(webpack@5.98.0))(webpack@5.98.0)':
     dependencies:
       '@angular-devkit/architect': 0.1902.1(chokidar@4.0.3)
       rxjs: 7.8.1
@@ -25134,7 +25134,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.2.1':
     optional: true
 
-  '@ngtools/webpack@19.2.1(@angular/compiler-cli@19.2.1(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.8.2))(typescript@5.8.2)(webpack@5.98.0(esbuild@0.25.0))':
+  '@ngtools/webpack@19.2.1(@angular/compiler-cli@19.2.1(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.8.2))(typescript@5.8.2)(webpack@5.98.0)':
     dependencies:
       '@angular/compiler-cli': 19.2.1(@angular/compiler@19.2.1(@angular/core@19.2.1(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.8.2)
       typescript: 5.8.2
@@ -26761,14 +26761,14 @@ snapshots:
     dependencies:
       acorn: 8.14.0
 
-  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))':
+  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))':
     dependencies:
-      '@sveltejs/kit': 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
+      '@sveltejs/kit': 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))':
+  '@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
       '@types/cookie': 0.6.0
       cookie: 1.0.2
       devalue: 5.1.1
@@ -26780,26 +26780,26 @@ snapshots:
       sade: 1.8.1
       set-cookie-parser: 2.7.1
       sirv: 3.0.1
-      svelte: 5.22.5
+      svelte: 5.22.6
       vite: 6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
       debug: 4.4.0(supports-color@9.4.0)
-      svelte: 5.22.5
+      svelte: 5.22.6
       vite: 6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.5)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
       debug: 4.4.0(supports-color@9.4.0)
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
-      svelte: 5.22.5
+      svelte: 5.22.6
       vite: 6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0)
       vitefu: 1.0.6(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.0))
     transitivePeerDependencies:
@@ -28588,12 +28588,12 @@ snapshots:
   '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.98.0)':
     dependencies:
       webpack: 5.98.0(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack@5.98.0)
 
   '@webpack-cli/generators@3.0.7(encoding@0.1.13)(mem-fs@2.3.0)(prettier@3.5.3)(webpack-cli@6.0.1)(webpack@5.98.0)':
     dependencies:
       webpack: 5.98.0(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack@5.98.0)
       yeoman-environment: 3.19.3
       yeoman-generator: 5.10.0(encoding@0.1.13)(mem-fs@2.3.0)(yeoman-environment@3.19.3)
     optionalDependencies:
@@ -28607,7 +28607,7 @@ snapshots:
   '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.98.0)':
     dependencies:
       webpack: 5.98.0(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack@5.98.0)
 
   '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack-dev-server@5.2.0)(webpack@5.98.0)':
     dependencies:
@@ -29241,13 +29241,6 @@ snapshots:
       make-dir: 3.1.0
       schema-utils: 2.7.1
       webpack: 5.98.0(webpack-cli@6.0.1)
-
-  babel-loader@9.2.1(@babel/core@7.26.9)(webpack@5.98.0(esbuild@0.25.0)):
-    dependencies:
-      '@babel/core': 7.26.9
-      find-cache-dir: 4.0.0
-      schema-utils: 4.3.0
-      webpack: 5.98.0(esbuild@0.25.0)
 
   babel-loader@9.2.1(@babel/core@7.26.9)(webpack@5.98.0):
     dependencies:
@@ -30403,7 +30396,7 @@ snapshots:
       serialize-javascript: 6.0.2
       webpack: 5.98.0(webpack-cli@6.0.1)
 
-  copy-webpack-plugin@12.0.2(webpack@5.98.0(esbuild@0.25.0)):
+  copy-webpack-plugin@12.0.2(webpack@5.98.0):
     dependencies:
       fast-glob: 3.3.3
       glob-parent: 6.0.2
@@ -30580,7 +30573,7 @@ snapshots:
     optionalDependencies:
       webpack: 5.98.0(webpack-cli@6.0.1)
 
-  css-loader@7.1.2(webpack@5.98.0(esbuild@0.25.0)):
+  css-loader@7.1.2(webpack@5.98.0):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.3)
       postcss: 8.5.3
@@ -31988,7 +31981,7 @@ snapshots:
       semver: 7.7.1
       typescript: 5.8.2
 
-  eslint-plugin-svelte@3.0.3(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.5)(ts-node@10.9.2(@types/node@22.13.9)(typescript@5.8.2)):
+  eslint-plugin-svelte@3.0.3(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.6)(ts-node@10.9.2(@types/node@22.13.9)(typescript@5.8.2)):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.22.0(jiti@2.4.2))
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -32000,9 +31993,9 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.3)(ts-node@10.9.2(@types/node@22.13.9)(typescript@5.8.2))
       postcss-safe-parser: 7.0.1(postcss@8.5.3)
       semver: 7.7.1
-      svelte-eslint-parser: 1.0.1(svelte@5.22.5)
+      svelte-eslint-parser: 1.0.1(svelte@5.22.6)
     optionalDependencies:
-      svelte: 5.22.5
+      svelte: 5.22.6
     transitivePeerDependencies:
       - ts-node
 
@@ -35070,7 +35063,7 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  less-loader@12.2.0(less@4.2.2)(webpack@5.98.0(esbuild@0.25.0)):
+  less-loader@12.2.0(less@4.2.2)(webpack@5.98.0):
     dependencies:
       less: 4.2.2
     optionalDependencies:
@@ -35097,7 +35090,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  license-webpack-plugin@4.0.2(webpack@5.98.0(esbuild@0.25.0)):
+  license-webpack-plugin@4.0.2(webpack@5.98.0):
     dependencies:
       webpack-sources: 3.2.3
     optionalDependencies:
@@ -36441,12 +36434,6 @@ snapshots:
   mimic-response@4.0.0: {}
 
   min-indent@1.0.1: {}
-
-  mini-css-extract-plugin@2.9.2(webpack@5.98.0(esbuild@0.25.0)):
-    dependencies:
-      schema-utils: 4.3.0
-      tapable: 2.2.1
-      webpack: 5.98.0(esbuild@0.25.0)
 
   mini-css-extract-plugin@2.9.2(webpack@5.98.0):
     dependencies:
@@ -38165,7 +38152,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  postcss-loader@8.1.1(postcss@8.5.3)(typescript@5.8.2)(webpack@5.98.0(esbuild@0.25.0)):
+  postcss-loader@8.1.1(postcss@8.5.3)(typescript@5.8.2)(webpack@5.98.0):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.8.2)
       jiti: 1.21.7
@@ -38550,16 +38537,16 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.5):
+  prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.6):
     dependencies:
       prettier: 3.5.3
-      svelte: 5.22.5
+      svelte: 5.22.6
 
-  prettier-plugin-tailwindcss@0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.5))(prettier@3.5.3):
+  prettier-plugin-tailwindcss@0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.22.6))(prettier@3.5.3):
     dependencies:
       prettier: 3.5.3
     optionalDependencies:
-      prettier-plugin-svelte: 3.3.3(prettier@3.5.3)(svelte@5.22.5)
+      prettier-plugin-svelte: 3.3.3(prettier@3.5.3)(svelte@5.22.6)
 
   prettier@2.8.8: {}
 
@@ -39831,20 +39818,12 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@16.0.5(sass@1.85.0)(webpack@5.98.0(esbuild@0.25.0)):
-    dependencies:
-      neo-async: 2.6.2
-    optionalDependencies:
-      sass: 1.85.0
-      webpack: 5.98.0(esbuild@0.25.0)
-
   sass-loader@16.0.5(sass@1.85.0)(webpack@5.98.0):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
       sass: 1.85.0
       webpack: 5.98.0(webpack-cli@6.0.1)
-    optional: true
 
   sass@1.85.0:
     dependencies:
@@ -40352,7 +40331,7 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  source-map-loader@5.0.0(webpack@5.98.0(esbuild@0.25.0)):
+  source-map-loader@5.0.0(webpack@5.98.0):
     dependencies:
       iconv-lite: 0.6.3
       source-map-js: 1.2.1
@@ -40790,19 +40769,19 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.1.5(picomatch@4.0.2)(svelte@5.22.5)(typescript@5.8.2):
+  svelte-check@4.1.5(picomatch@4.0.2)(svelte@5.22.6)(typescript@5.8.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.3
       fdir: 6.4.3(picomatch@4.0.2)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.22.5
+      svelte: 5.22.6
       typescript: 5.8.2
     transitivePeerDependencies:
       - picomatch
 
-  svelte-eslint-parser@1.0.1(svelte@5.22.5):
+  svelte-eslint-parser@1.0.1(svelte@5.22.6):
     dependencies:
       eslint-scope: 8.2.0
       eslint-visitor-keys: 4.2.0
@@ -40811,9 +40790,9 @@ snapshots:
       postcss-scss: 4.0.9(postcss@8.5.3)
       postcss-selector-parser: 7.1.0
     optionalDependencies:
-      svelte: 5.22.5
+      svelte: 5.22.6
 
-  svelte@5.22.5:
+  svelte@5.22.6:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -42283,17 +42262,6 @@ snapshots:
       webpack: 5.98.0(webpack-cli@6.0.1)
       webpack-merge: 6.0.1
 
-  webpack-dev-middleware@7.4.2(webpack@5.98.0(esbuild@0.25.0)):
-    dependencies:
-      colorette: 2.0.20
-      memfs: 4.17.0
-      mime-types: 2.1.35
-      on-finished: 2.4.1
-      range-parser: 1.2.1
-      schema-utils: 4.3.0
-    optionalDependencies:
-      webpack: 5.98.0(esbuild@0.25.0)
-
   webpack-dev-middleware@7.4.2(webpack@5.98.0):
     dependencies:
       colorette: 2.0.20
@@ -42441,7 +42409,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack-subresource-integrity@5.1.0(html-webpack-plugin@5.6.3(webpack@5.98.0))(webpack@5.98.0(esbuild@0.25.0)):
+  webpack-subresource-integrity@5.1.0(html-webpack-plugin@5.6.3(webpack@5.98.0))(webpack@5.98.0):
     dependencies:
       typed-assert: 1.0.9
       webpack: 5.98.0(esbuild@0.25.0)
@@ -42506,7 +42474,7 @@ snapshots:
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     optionalDependencies:
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack@5.98.0)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
