@@ -936,8 +936,8 @@ importers:
   templates/cli/oclif:
     dependencies:
       '@oclif/core':
-        specifier: 4.2.9
-        version: 4.2.9
+        specifier: 4.2.10
+        version: 4.2.10
       figlet:
         specifier: 1.8.0
         version: 1.8.0
@@ -5937,8 +5937,8 @@ packages:
     engines: {node: ^14.18.0 || >=16.10.0, npm: '>=5.10.0'}
     hasBin: true
 
-  '@oclif/core@4.2.9':
-    resolution: {integrity: sha512-cIlvpefLtorcyvnvJiOmYBqn6J6qdp/06tk54p2MddGEr0gnA7EIaQXM2UtRjf4ryDVCbIo+8IFRsW8Flt0uGA==}
+  '@oclif/core@4.2.10':
+    resolution: {integrity: sha512-fAqcXgqkUm4v5FYy7qWP4w1HaOlVSVJveah+yVTo5Nm5kTiXhmD5mQQ7+knGeBaStyrtQy6WardoC2xSic9rlQ==}
     engines: {node: '>=18.0.0'}
 
   '@octokit/auth-token@2.5.0':
@@ -20138,7 +20138,7 @@ snapshots:
       resolve-url-loader: 5.0.0
       rxjs: 7.8.1
       sass: 1.85.0
-      sass-loader: 16.0.5(sass@1.85.0)(webpack@5.98.0)
+      sass-loader: 16.0.5(sass@1.85.0)(webpack@5.98.0(esbuild@0.25.0))
       semver: 7.7.1
       source-map-loader: 5.0.0(webpack@5.98.0(esbuild@0.25.0))
       source-map-support: 0.5.21
@@ -26082,7 +26082,7 @@ snapshots:
     dependencies:
       consola: 3.4.0
 
-  '@oclif/core@4.2.9':
+  '@oclif/core@4.2.10':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -40571,12 +40571,20 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
+  sass-loader@16.0.5(sass@1.85.0)(webpack@5.98.0(esbuild@0.25.0)):
+    dependencies:
+      neo-async: 2.6.2
+    optionalDependencies:
+      sass: 1.85.0
+      webpack: 5.98.0(esbuild@0.25.0)
+
   sass-loader@16.0.5(sass@1.85.0)(webpack@5.98.0):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
       sass: 1.85.0
       webpack: 5.98.0(webpack-cli@6.0.1)
+    optional: true
 
   sass@1.85.0:
     dependencies:
