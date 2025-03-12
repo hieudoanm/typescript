@@ -17,7 +17,7 @@
   "dependencies": {
     "@dotenvx/dotenvx": "1.38.5",
     "drizzle-orm": "0.40.0",
-    "pg": "8.13.3"
+    "pg": "8.14.0"
   },
   "devDependencies": {
     "@eslint/js": "9.22.0",
