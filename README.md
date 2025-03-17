@@ -84,18 +84,21 @@
 
 ### Browsers
 
-| Industry    | Supersector | Sector  | Subsector | Technology           | Open Source | Maintainer           | Language | Recommended |
-| ----------- | ----------- | ------- | --------- | -------------------- | ----------- | -------------------- | -------- | ----------- |
-| Development | Software    | Browser |           | [Firefox][firefox]   |             | [Mozilla][mozilla]   |          | Recommended |
-| Development | Software    | Browser |           | [Safari][Safari]     |             | [Apple][apple]       |          |             |
-| Development | Software    | Browser |           | [Chromium][chromium] |             | [Alphabet][alphabet] |          |             |
-| Development | Software    | Browser | Chromium  | [Arc][arc]           |             |                      |          |             |
-| Development | Software    | Browser | Chromium  | [Brave][brave]       |             |                      |          |             |
-| Development | Software    | Browser | Chromium  | [Chrome][chrome]     |             | [Alphabet][alphabet] |          |             |
-| Development | Software    | Browser | Chromium  | [Edge][edge]         |             | [Microsoft][ms]      |          |             |
-| Development | Software    | Browser | Chromium  | [Opera][opera]       |             |                      |          |             |
-| Development | Software    | Browser | Chromium  | [Whale][naver-whale] |             | [Naver][naver]       |          |             |
-| Development | Software    | Browser | Chromium  | [Yandex][yandex]     |             |                      |          |             |
+| Industry    | Supersector | Sector   | Subsector | Technology               | Open Source | Maintainer           | Language | Recommended |
+| ----------- | ----------- | -------- | --------- | ------------------------ | ----------- | -------------------- | -------- | ----------- |
+| Development | Software    | Browsers | Gecko     | [Firefox][firefox]       |             | [Mozilla][mozilla]   |          | Recommended |
+| Development | Software    | Browsers | Gecko     | [Tor][tor]               |             |                      |          |             |
+| Development | Software    | Browsers | WebKit    | [DuckDuckGo][duckduckgo] |             |                      |          |             |
+| Development | Software    | Browsers | WebKit    | [Safari][Safari]         |             | [Apple][apple]       |          |             |
+| Development | Software    | Browsers | Chromium  | [Chromium][chromium]     |             | [Alphabet][alphabet] |          |             |
+| Development | Software    | Browsers | Chromium  | [Arc][arc]               |             |                      |          |             |
+| Development | Software    | Browsers | Chromium  | [Brave][brave]           |             |                      |          |             |
+| Development | Software    | Browsers | Chromium  | [Chrome][chrome]         |             | [Alphabet][alphabet] |          |             |
+| Development | Software    | Browsers | Chromium  | [Edge][edge]             |             | [Microsoft][ms]      |          |             |
+| Development | Software    | Browsers | Chromium  | [Opera][opera]           |             |                      |          |             |
+| Development | Software    | Browsers | Chromium  | [Whale][naver-whale]     |             | [Naver][naver]       |          |             |
+| Development | Software    | Browsers | Chromium  | [Vivaldi][vivaldi]       |             |                      |          |             |
+| Development | Software    | Browsers | Chromium  | [Yandex][yandex]         |             |                      |          |             |
 
 [⬆️ Back to Table of Content](#table-of-content)
 
@@ -450,8 +453,10 @@
 | Development | OS                    | [Linux][kernel]              |                            | [Ubuntu][ubuntu]                                |                                |                          |                  |             |
 | Development | OS                    | Unix                         |                            | [macOS][macos]                                  |                                | [Apple][apple]           |                  |             |
 | Development | OS                    | OS/2                         |                            | [Windows][windows]                              |                                | [Microsoft][ms]          |                  |             |
-| Development | Software              | [Browsers](#browsers)        |                            | [Firefox][firefox]                              |                                | [Mozilla][mozilla]       |                  | Recommended |
-| Development | Software              | [Browsers](#browsers)        |                            | [Safari][Safari]                                |                                | [Apple][apple]           |                  |             |
+| Development | Software              | [Browsers](#browsers)        | Gecko                      | [Firefox][firefox]                              |                                | [Mozilla][mozilla]       |                  | Recommended |
+| Development | Software              | [Browsers](#browsers)        | Gecko                      | [Tor][tor]                                      |                                |                          |                  |             |
+| Development | Software              | [Browsers](#browsers)        | WebKit                     | [DuckDuckGo][duckduckgo]                        |                                |                          |                  |             |
+| Development | Software              | [Browsers](#browsers)        | WebKit                     | [Safari][Safari]                                |                                | [Apple][apple]           |                  |             |
 | Development | Software              | [Browsers](#browsers)        |                            | [Chromium][chromium]                            |                                | [Alphabet][alphabet]     |                  |             |
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Arc][arc]                                      |                                |                          |                  |             |
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Brave][brave]                                  |                                |                          |                  |             |
@@ -459,6 +464,7 @@
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Edge][edge]                                    |                                | [Microsoft][ms]          |                  |             |
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Opera][opera]                                  |                                |                          |                  |             |
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Whale][naver-whale]                            |                                | [Naver][naver]           |                  |             |
+| Development | Software              | [Browsers](#browsers)        | Chromium                   | [Vivaldi][vivaldi]                              |                                |                          |                  |             |
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Yandex][yandex]                                |                                |                          |                  |             |
 | Development | Software              | Messaging                    |                            | [Slack][slack]                                  |                                |                          |                  |             |
 | Development | Software              | API Testing                  |                            | [Insomnia][insomnia]                            | [GitHub][gh-insomnia]          | [Kong][kong]             | [JS][js]         |             |
@@ -797,6 +803,7 @@
 [docusaurus]: https://docusaurus.io
 [dprint]: https://dprint.dev
 [drizzle]: https://orm.drizzle.team
+[duckduckgo]: https://duckduckgo.com/
 [ecmascript]: https://ecma-international.org/publications-and-standards/standards/ecma-262
 [edge]: https://www.microsoft.com/en-us/edge
 [elasticsearch]: https://www.elastic.co/elasticsearch
@@ -996,6 +1003,7 @@
 [theme-ui]: https://theme-ui.com
 [three.js]: https://threejs.org
 [thunder]: https://www.thunderclient.com
+[tor]: https://www.torproject.org/
 [travis-ci]: https://www.travis-ci.com
 [trpc]: https://trpc.io
 [ts]: https://www.typescriptlang.org
@@ -1010,6 +1018,7 @@
 [vercel]: https://vercel.com
 [vite]: https://vitejs.dev
 [vitest]: https://vitest.dev
+[vivaldi]: https://vivaldi.com/
 [volt]: https://voltpkg.com
 [vue]: https://vuejs.org
 [wails]: https://wails.io
