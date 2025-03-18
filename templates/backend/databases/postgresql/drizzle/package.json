@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@dotenvx/dotenvx": "1.39.0",
-    "drizzle-orm": "0.40.0",
+    "drizzle-orm": "0.40.1",
     "pg": "8.14.1"
   },
   "devDependencies": {
