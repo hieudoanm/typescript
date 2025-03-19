@@ -8,6 +8,7 @@
   - [Nominations](#nominations)
     - [Operating Systems](#operating-systems)
     - [Browsers](#browsers)
+    - [Code Editor](#code-editor)
     - [Engines](#engines)
     - [Runtimes](#runtimes)
     - [Packages Managers](#packages-managers)
@@ -99,6 +100,18 @@
 | Development | Software    | Browsers | Chromium  | [Whale][naver-whale]     |             | [Naver][naver]       |          |             |
 | Development | Software    | Browsers | Chromium  | [Vivaldi][vivaldi]       |             |                      |          |             |
 | Development | Software    | Browsers | Chromium  | [Yandex][yandex]         |             |                      |          |             |
+
+[⬆️ Back to Table of Content](#table-of-content)
+
+### Code Editor
+
+| Industry    | Supersector | Sector | Subsector | Technology                               | Open Source | Maintainer | Language | Recommended |
+| ----------- | ----------- | ------ | --------- | ---------------------------------------- | ----------- | ---------- | -------- | ----------- |
+| Development | Software    | Editor |           | [Fleet][jetbrains-fleet]                 |             |            |          |             |
+| Development | Software    | Editor |           | [Neovim][neovim]                         |             |            |          |             |
+| Development | Software    | Editor |           | [Sublime Text][sublime-text]             |             |            |          |             |
+| Development | Software    | Editor |           | [Visual Studio Code][visual-studio-code] |             |            |          |             |
+| Development | Software    | Editor |           | [Zed][zed]                               |             |            |          |             |
 
 [⬆️ Back to Table of Content](#table-of-content)
 
@@ -466,6 +479,11 @@
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Whale][naver-whale]                            |                                | [Naver][naver]           |                  |             |
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Vivaldi][vivaldi]                              |                                |                          |                  |             |
 | Development | Software              | [Browsers](#browsers)        | Chromium                   | [Yandex][yandex]                                |                                |                          |                  |             |
+| Development | Software              | Editor                       |                            | [Fleet][jetbrains-fleet]                        |                                |                          |                  |             |
+| Development | Software              | Editor                       |                            | [Neovim][neovim]                                |                                |                          |                  |             |
+| Development | Software              | Editor                       |                            | [Sublime Text][sublime-text]                    |                                |                          |                  |             |
+| Development | Software              | Editor                       |                            | [Visual Studio Code][visual-studio-code]        |                                |                          |                  |             |
+| Development | Software              | Editor                       |                            | [Zed][zed]                                      |                                |                          |                  |             |
 | Development | Software              | Messaging                    |                            | [Slack][slack]                                  |                                |                          |                  |             |
 | Development | Software              | API Testing                  |                            | [Insomnia][insomnia]                            | [GitHub][gh-insomnia]          | [Kong][kong]             | [JS][js]         |             |
 | Development | Software              | API Testing                  |                            | [Postman][postman]                              | [GitHub][gh-postman]           |                          |                  |             |
@@ -851,6 +869,7 @@
 [java]: https://www.java.com
 [jest]: https://jestjs.io
 [jenkins]: https://www.jenkins.io
+[jetbrains-fleet]: https://www.jetbrains.com/fleet/
 [jotai]: https://jotai.org
 [jquery]: https://jquery.com
 [js]: https://www.javascript.com
@@ -903,6 +922,7 @@
 [naver-whale]: https://whale.naver.com
 [neo4j]: https://neo4j.com
 [neon]: https://neon.tech
+[neovim]: https://neovim.io/
 [netlify]: https://netlify.com
 [nest.js]: https://nestjs.com
 [next-auth]: https://next-auth.js.org
@@ -987,6 +1007,7 @@
 [sonar]: https://www.sonarsource.com
 [sqlite]: https://www.sqlite.org
 [stripe]: https://stripe.com
+[sublime-text]: https://www.sublimetext.com/
 [swc]: https://swc.rs
 [swr]: https://swr.vercel.app
 [swagger]: https://swagger.io
@@ -1016,6 +1037,7 @@
 [valkey]: https://valkey.io
 [vault]: https://www.vaultproject.io
 [vercel]: https://vercel.com
+[visual-studio-code]: https://code.visualstudio.com/
 [vite]: https://vitejs.dev
 [vitest]: https://vitest.dev
 [vivaldi]: https://vivaldi.com/
@@ -1030,9 +1052,13 @@
 [yandex]: https://browser.yandex.com
 [yarn-workspaces]: https://yarnpkg.com/features/workspaces
 [yoga]: https://the-guild.dev/graphql/yoga-server
+[zed]: https://zed.dev/
 [zig]: https://ziglang.org
 [zitadel]: https://zitadel.com
 [zustand]: https://zustand-demo.pmnd.rs
+
+<!-- GitHub -->
+
 [gh-babel]: https://github.com/babel/babel
 [gh-biome]: https://github.com/biomejs/biome
 [gh-bun]: https://github.com/oven-sh/bun
