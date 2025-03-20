@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  axios: 1.8.3
+  axios: 1.8.4
   body-parser: 1.20.3
   cookie: 1.0.2
   cross-spawn: 7.0.6
@@ -302,7 +302,7 @@ importers:
         version: 13.0.3(@apollo/server@4.11.3(encoding@0.1.13)(graphql@16.10.0))(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.12)(@nestjs/graphql@13.0.3(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.12)(graphql@16.10.0)(reflect-metadata@0.2.2))(graphql@16.10.0)
       '@nestjs/axios':
         specifier: 4.0.0
-        version: 4.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.3)(rxjs@7.8.2)
+        version: 4.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.4)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: 11.0.12
         version: 11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -319,8 +319,8 @@ importers:
         specifier: 11.0.7
         version: 11.0.7(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.12)(reflect-metadata@0.2.2)
       axios:
-        specifier: 1.8.3
-        version: 1.8.3
+        specifier: 1.8.4
+        version: 1.8.4
       graphql:
         specifier: 16.10.0
         version: 16.10.0
@@ -576,7 +576,7 @@ importers:
     dependencies:
       '@nestjs/axios':
         specifier: 4.0.0
-        version: 4.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.3)(rxjs@7.8.2)
+        version: 4.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.4)(rxjs@7.8.2)
       '@nestjs/cache-manager':
         specifier: 3.0.0
         version: 3.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.12)(cache-manager@6.4.1)(rxjs@7.8.2)
@@ -599,8 +599,8 @@ importers:
         specifier: 6.4.0
         version: 6.4.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.12)(reflect-metadata@0.2.2)
       axios:
-        specifier: 1.8.3
-        version: 1.8.3
+        specifier: 1.8.4
+        version: 1.8.4
       cache-manager:
         specifier: 6.4.1
         version: 6.4.1
@@ -952,8 +952,8 @@ importers:
         specifier: 11.0.0-rc.840
         version: 11.0.0-rc.840(typescript@5.8.2)
       axios:
-        specifier: 1.8.3
-        version: 1.8.3
+        specifier: 1.8.4
+        version: 1.8.4
       million:
         specifier: 3.1.11
         version: 3.1.11(rollup@2.79.2)
@@ -5384,7 +5384,7 @@ packages:
     resolution: {integrity: sha512-1cB+Jyltu/uUPNQrpUimRHEQHrnQrpLzVj6dU3dgn6iDDDdahr10TgHFGTmw5VuJ9GzKZsCLDL78VSwJAs/9JQ==}
     peerDependencies:
       '@nestjs/common': ^10.0.0 || ^11.0.0
-      axios: 1.8.3
+      axios: 1.8.4
       rxjs: ^7.0.0
 
   '@nestjs/cache-manager@3.0.0':
@@ -8514,8 +8514,8 @@ packages:
     resolution: {integrity: sha512-RE3mdQ7P3FRSe7eqCWoeQ/Z9QXrtniSjp1wUjt5nRC3WIpz5rSCve6o3fsZ2aCpJtrZjSZgjwXAoTO5k4tEI0w==}
     engines: {node: '>=4'}
 
-  axios@1.8.3:
-    resolution: {integrity: sha512-iP4DebzoNlP/YN2dpwCgb8zoCmhtkajzS48JvwmkSkXvPI3DHc7m+XYL5tGnSlJtR6nImXZmdCuN5aP8dh1d8A==}
+  axios@1.8.4:
+    resolution: {integrity: sha512-eBSYY4Y68NNlHbHBMdeDmKNtDgXWhQsJcGqzO3iLUM0GraQFSS9cVgPX5I9b3lbdFKyYoAEGAZF1DwhTaljNAw==}
 
   axobject-query@4.1.0:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
@@ -24856,10 +24856,10 @@ snapshots:
       lodash.omit: 4.5.0
       tslib: 2.8.1
 
-  '@nestjs/axios@4.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.3)(rxjs@7.8.2)':
+  '@nestjs/axios@4.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.8.4)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      axios: 1.8.3
+      axios: 1.8.4
       rxjs: 7.8.2
 
   '@nestjs/cache-manager@3.0.0(@nestjs/common@11.0.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.12)(cache-manager@6.4.1)(rxjs@7.8.2)':
@@ -29036,7 +29036,7 @@ snapshots:
 
   axe-core@4.10.2: {}
 
-  axios@1.8.3:
+  axios@1.8.4:
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
       form-data: 4.0.2
