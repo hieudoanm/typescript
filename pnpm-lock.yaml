@@ -1263,8 +1263,8 @@ importers:
   templates/frontend/documentation/astro:
     dependencies:
       '@astrojs/starlight':
-        specifier: 0.32.3
-        version: 0.32.3(astro@5.5.3(@types/node@22.13.11)(db0@0.2.4(drizzle-orm@0.40.1(@cloudflare/workers-types@4.20250320.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.14.1)(prisma@6.5.0(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.2)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
+        specifier: 0.32.4
+        version: 0.32.4(astro@5.5.3(@types/node@22.13.11)(db0@0.2.4(drizzle-orm@0.40.1(@cloudflare/workers-types@4.20250320.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.14.1)(prisma@6.5.0(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.2)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
       astro:
         specifier: 5.5.3
         version: 5.5.3(@types/node@22.13.11)(db0@0.2.4(drizzle-orm@0.40.1(@cloudflare/workers-types@4.20250320.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.14.1)(prisma@6.5.0(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.2)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0)
@@ -1993,8 +1993,8 @@ packages:
   '@astrojs/sitemap@3.2.1':
     resolution: {integrity: sha512-uxMfO8f7pALq0ADL6Lk68UV6dNYjJ2xGUzyjjVj60JLBs5a6smtlkBYv3tQ0DzoqwS7c9n4FUx5lgv0yPo/fgA==}
 
-  '@astrojs/starlight@0.32.3':
-    resolution: {integrity: sha512-oss5RxvCpuO1FSQyTC0vti5FOjRY0fHiJbGLYbnRsBNVfTzRMKRYMTfNwiduZuVNXML7zhV6QLCFjYpHt0PKuw==}
+  '@astrojs/starlight@0.32.4':
+    resolution: {integrity: sha512-l6aHQ4wzFPdw2G2XPqft/SrzhOYWYBYPkIHlLdgFT09Lt3NUpHnHwdcomtDJfHPlvrAqBKt/C+aJqQjLBApu0Q==}
     peerDependencies:
       astro: ^5.1.5
 
@@ -20493,7 +20493,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/starlight@0.32.3(astro@5.5.3(@types/node@22.13.11)(db0@0.2.4(drizzle-orm@0.40.1(@cloudflare/workers-types@4.20250320.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.14.1)(prisma@6.5.0(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.2)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))':
+  '@astrojs/starlight@0.32.4(astro@5.5.3(@types/node@22.13.11)(db0@0.2.4(drizzle-orm@0.40.1(@cloudflare/workers-types@4.20250320.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.14.1)(prisma@6.5.0(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.2)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))':
     dependencies:
       '@astrojs/mdx': 4.1.0(astro@5.5.3(@types/node@22.13.11)(db0@0.2.4(drizzle-orm@0.40.1(@cloudflare/workers-types@4.20250320.0)(@opentelemetry/api@1.4.1)(@prisma/client@6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2))(@types/pg@8.11.11)(gel@2.0.0)(pg@8.14.1)(prisma@6.5.0(typescript@5.8.2))))(ioredis@5.5.0)(jiti@2.4.2)(less@4.2.2)(lightningcss@1.29.2)(rollup@4.34.9)(sass@1.85.0)(terser@5.39.0)(tsx@4.19.3)(typescript@5.8.2)(yaml@2.7.0))
       '@astrojs/sitemap': 3.2.1
@@ -28572,12 +28572,12 @@ snapshots:
   '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.98.0)':
     dependencies:
       webpack: 5.98.0(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
 
   '@webpack-cli/generators@3.0.7(encoding@0.1.13)(mem-fs@2.3.0)(prettier@3.5.3)(webpack-cli@6.0.1)(webpack@5.98.0)':
     dependencies:
       webpack: 5.98.0(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
       yeoman-environment: 3.19.3
       yeoman-generator: 5.10.0(encoding@0.1.13)(mem-fs@2.3.0)(yeoman-environment@3.19.3)
     optionalDependencies:
@@ -28591,7 +28591,7 @@ snapshots:
   '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.98.0)':
     dependencies:
       webpack: 5.98.0(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
 
   '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack-dev-server@5.2.0)(webpack@5.98.0)':
     dependencies:
@@ -42422,7 +42422,7 @@ snapshots:
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     optionalDependencies:
-      webpack-cli: 6.0.1(webpack@5.98.0)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.0)(webpack@5.98.0)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
