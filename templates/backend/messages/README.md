@@ -1,3 +1,0 @@
-# Messages Brokers
-
-- Kafka
